@@ -62,7 +62,7 @@
 
 	<p><b>Majumdar, S.</b> and Basak, S.C.
 	Exploring intrinsic dimensionality of chemical spaces for robust QSAR model development: A comparison of several statistical approaches.
-	 <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 117-123;</p>
+	 <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 294-301;</p>
 	<p>Basak, S.C., <b>Majumdar, S.</b> Prediction of Mutagenicity of Chemicals from Their Calculated Molecular Descriptors:
 	A Case Study with Structurally Homogeneous versus Diverse Datasets. <i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, <i>11</i>, 117-123;</p>
 	<p><b>Majumdar, S.</b>, Basak, S.C., and Grunwald, G.D. Adapting Interrelated Two-Way Clustering Method for Quantitative Structure-Activity Relationship (QSAR)
@@ -73,10 +73,10 @@
 
 	<p><b>Majumdar, S.</b>, Dietz, L., Chatterjee, S. Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth.
 	<i>Fifth International Workshop on Climate Informatics: CI 2015.</i>,
-	 ISBN: 978-0-9973548-0-5, <b>2015</b> <a href="ci_abstract.pdf" target="_blank">[pdf];</a></p>
+	 ISBN: 978-0-9973548-0-5, <b>2015</b> <a href="docs/ci_abstract.pdf" target="_blank">[pdf];</a></p>
 	<p>Potash E., Walsh, J., Brew, J., Loewi, A., <b>Majumdar, S.</b>, Reece, A., Rozier, E., Jorgensen, E., Mansour, R., and Ghani, R.
 	Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning. <i> KDD 2015</i>, <b>2015</b>, 2039-2047;
-	<a href="Lead paper_p2039-potash.pdf" target="_blank">[pdf]</a>,
+	<a href="docs/Lead paper_p2039-potash.pdf" target="_blank">[pdf]</a>,
 	<a href="http://www.chicagotribune.com/news/watchdog/ct-lead-poisoning-solutions-20150707-story.html#page=1" target="_blank">[Chicago Tribune report]</a></p>
 	<p>Mukherjee, U., <b>Majumdar, S.</b> and Chatterjee, S. Fast and robust supervised learning in high dimensions using the geometry of the data.
 	In <i>Advances in Data Mining: Applications and Theoretical Aspects</i>, ser. <i>Lecture Notes in Computer Science</i>, <b>2015</b>, <i>9165</i>, 109-123.</p>
@@ -97,8 +97,11 @@
 
   <h3>Other</h3>
 
+  <p>(Invited) Basak, S.C., <b>Majumdar, S.</b> Editorial: Chemodescriptor Based QSARs of Structurally Homogeneous Versus Heterogeneous Chemical Data Sets:
+    Some Comments on the Congenericity Principle vis-à-vis Diversity Begets Diversity Principle.
+    <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 84-86.</p>
   <p>(Invited) Basak, S.C., <b>Majumdar, S.</b> Editorial: The Importance of Rigorous Statistical Practice in the Current Landscape of QSAR Modelling.
-  <i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, 11, 2-4. <a href="Editorial-CCADD-11-1.pdf" target="_blank">[pdf]</a></p>
+  <i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, <i>11</i>, 2-4. <a href="docs/Editorial-CCADD-11-1.pdf" target="_blank">[pdf]</a></p>
   <p>(Technical report) <b>Majumdar, S.</b> Robust estimation of principal components from depth-based multivariate rank covariance matrix, <b>2015</b>.
   <a href="http://arxiv.org/abs/1502.07042" target="_blank">[arXiv]</a>;</p>
 

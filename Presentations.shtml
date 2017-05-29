@@ -54,33 +54,37 @@
 	<h3>Posters</h3>
 
 	<p><i>Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth</i>,<br>
-	9th International Calcutta Triennial Conference, Kolkata, India, December 2015. <a href="ci_poster.pdf" target="_blank">[pdf]</a>;<br>
+	9th International Calcutta Triennial Symposium, Kolkata, India, December 2015. <a href="docs/ci_poster.pdf" target="_blank">[pdf]</a>;<br>
   5th International Workshop on Climate Informatics, Boulder, CO, September 2015.
 
 	<p><i>Preventing Lead Poisoning in Chicago</i>, KDD 2014, New York City, NY, August 2014.
-	<a href="CDPH-poster-1.pdf" target="_blank">[pdf]</a></p>
+	<a href="docs/CDPH-poster-1.pdf" target="_blank">[pdf]</a></p>
 
 	<h3>Presentations</h3>
 	<p><i>Hunting Zika Virus with Machine Learning</i>,<br>
-    (Invited) ASA Twin Cities Chapter Spring Meeting, Minneapolis, MN, April 2017. <a href="Huntin Zika_DSSG Chicago talk.pdf" target="_blank">[slides]</a><br>
+    (Invited) ASA Twin Cities Chapter Spring Meeting, Minneapolis, MN, April 2017. <a href="docs/Huntin Zika_DSSG Chicago talk.pdf" target="_blank">[slides]</a><br>
     Data Science for Social Good Conference, Chicago, IL, August 2016.
   </p>
 
+  <p><i>Nonconvex penalized regression using epth-based penalty functions:
+    multitask earning and support union recovery in high dimensions</i>,<br>
+    2017 ENAR Spring Meeting, Washington, DC, March 2017. <a href="docs/slides-ENAR.pdf" target="_blank">[slides]</a><br>
+
 	<p><i>A model selection criterion for regression estimators based on data depth</i>,<br>
-	(Invited) 2016 International Indian Statistical Association Conference, Corvallis, OR, August 2016. <a href="IISA-slides-Subho-Majumdar.pdf" target="_blank">[slides]</a><br>
+	(Invited) 2016 International Indian Statistical Association Conference, Corvallis, OR, August 2016. <a href="docs/IISA-slides-Subho-Majumdar.pdf" target="_blank">[slides]</a><br>
 	Joint Statistical Meetings, Chicago, IL, July 2016.
 	</p>
 
 	<p><i>Robust estimation of principal components from depth-based multivariate rank covariance matrix</i>,<br>
     Joint Statistical Meetings, Seattle, WA, August 2015.
-	<a href="JSMtalk_depth-scatter.pdf" target="_blank">[slides]</a></p>
+	<a href="docs/JSMtalk_depth-scatter.pdf" target="_blank">[slides]</a></p>
 
 	<p><i>Modeling Mutagenicity Status of a Diverse Set of Chemical Compounds by Envelope Methods</i>:<br>
-	Joint Statistical Meetings, Boston, MA, August 2014. <a href="jsm14slides_v1.pdf" target="_blank">[slides]</a><br>
+	Joint Statistical Meetings, Boston, MA, August 2014. <a href="docs/jsm14slides_v1.pdf" target="_blank">[slides]</a><br>
 	</p>
 
 	<p><i>False Discovery Rate: A Novel Approach for Multiple Hypothesis Testing</i>,<br>
-    National Marrow Donor Program, Minneapolis, MN, July 2013. <a href="FDR.pdf" target="_blank">[slides]</a></p>
+    National Marrow Donor Program, Minneapolis, MN, July 2013. <a href="docs/FDR.pdf" target="_blank">[slides]</a></p>
 
 	<!-- end #mainContent --></div>
 	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
