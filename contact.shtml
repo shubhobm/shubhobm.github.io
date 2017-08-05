@@ -32,10 +32,10 @@
       <p align="center" width="168"><img src="sbm-new.gif" alt="Subho Majumdar's photo" width=150 class="fltlft" /></p>
       <td>&nbsp;</td>
       <i>
-      <p>
-        PhD, School of Statistics<br>
-        University of Minnesota, Twin Cities
-      </p></i>
+        <p>
+          PhD<br>
+          University of Florida Informatics Institute
+        </p></i>
       <b>
         <p><a href="index.html">Home</a></p>
         <p><a href="publications.shtml">Publications</a></p>
@@ -49,18 +49,16 @@
 <!-- END sidebar.inc -->
 
       <div id="mainContent">
-      <p><b>Email:</b> majum010@umn.edu</p>
+      <p><b>Email:</b> smajumdar@ufl.edu</p>
         <!-- <tr>
           <td class="tableLabel">Phone</td>
           <td><p>(612) 806-9996</p></td>
         </tr> -->
-          <h3>Department</h3>
-          <p>University of Minnesota<br />
-              School of Statistics<br />
-              492 Ford Hall<br />
-              224 Church Street SE<br />
-              Minneapolis, MN 55455 <br />
-              U.S.A.<br />
+          <h3>Office</h3>
+          <p>UF Informatics Institute<br />
+              432 Newell Drive, CISE Bldg E251<br />
+              Gainesville, FL 32611 <br />
+              USA<br />
           </p>
 
           <p><i>GitHub</i> <a href="https://github.com/shubhobm" target="_blank">@shubhobm</a></p>
