@@ -60,7 +60,11 @@
 
 	<h3>Journal Publications</h3>
 
-	<p><b>Majumdar, S.</b> and Basak, S.C.
+  <p><b>Majumdar, S.</b> and Chatterjee, S. Nonconvex penalized multitask regression using data depth-based penalties.
+    <i>Stat</i>, <b>2017+</b>, <i>To appear</i>.
+    <a href="http://arxiv.org/abs/1610.07540" target="_blank">[arXiv]</a>
+  </p>
+  <p><b>Majumdar, S.</b> and Basak, S.C.
 	Exploring intrinsic dimensionality of chemical spaces for robust QSAR model development: A comparison of several statistical approaches.
 	 <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 294-301;</p>
 	<p>Basak, S.C., <b>Majumdar, S.</b> Prediction of Mutagenicity of Chemicals from Their Calculated Molecular Descriptors:
@@ -71,7 +75,7 @@
 
 	<h3>Conference proceedings</h3>
 
-	<p><b>Majumdar, S.</b>, Dietz, L., Chatterjee, S. Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth.
+  <p><b>Majumdar, S.</b>, Dietz, L., Chatterjee, S. Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth.
 	<i>Fifth International Workshop on Climate Informatics: CI 2015.</i>,
 	 ISBN: 978-0-9973548-0-5, <b>2015</b> <a href="docs/ci_abstract.pdf" target="_blank">[pdf];</a></p>
 	<p>Potash E., Walsh, J., Brew, J., Loewi, A., <b>Majumdar, S.</b>, Reece, A., Rozier, E., Jorgensen, E., Mansour, R., and Ghani, R.
@@ -83,10 +87,6 @@
 
 	<h3>Upcoming</h3>
 
-  <p><b>Majumdar, S.</b> and Chatterjee, S. Nonconvex penalized multitask regression using data depth-based penalties.
-    <i>Submitted</i>, <b>2017+</b>
-    <a href="http://arxiv.org/abs/1610.07540" target="_blank">[arXiv]</a>;
-  </p>
   <p><b>Majumdar, S.</b> and Chatterjee, S. Fast and General Best Subset Selection using Data Depth and Resampling;
     <i>Submitted</i>, <b>2017+</b>
     <a href="http://arxiv.org/abs/1706.02429" target="_blank">[arXiv]</a>;
