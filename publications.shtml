@@ -54,7 +54,7 @@
   <h3><a href="https://scholar.google.com/citations?user=wED36bwAAAAJ&hl=en">Google Scholar</a></h3>
   <h3>Book chapters</h3>
 
-	<p>Basak, S.C., <b>Majumdar, S.</b> Current Landscape of Hierarchical QSAR Modeling and its Applications:
+	<p>Basak, S.C. and <b>Majumdar, S.</b> Current Landscape of Hierarchical QSAR Modeling and its Applications:
 	Some Comments on the Importance of Mathematical Descriptors as well as Rigorous Statistical Methods of Model Building and Validation.
 	In <i>Advances in Mathematical Chemistry and Applications: Vol. 1</i>, <b>2015</b>, 251-281, published by Elsevier and Bentham e-Books.
 
@@ -67,18 +67,18 @@
   <p><b>Majumdar, S.</b> and Basak, S.C.
 	Exploring intrinsic dimensionality of chemical spaces for robust QSAR model development: A comparison of several statistical approaches.
 	 <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 294-301;</p>
-	<p>Basak, S.C., <b>Majumdar, S.</b> Prediction of Mutagenicity of Chemicals from Their Calculated Molecular Descriptors:
+	<p>Basak, S.C. and <b>Majumdar, S.</b> Prediction of Mutagenicity of Chemicals from Their Calculated Molecular Descriptors:
 	A Case Study with Structurally Homogeneous versus Diverse Datasets. <i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, <i>11</i>, 117-123;</p>
-	<p><b>Majumdar, S.</b>, Basak, S.C., and Grunwald, G.D. Adapting Interrelated Two-Way Clustering Method for Quantitative Structure-Activity Relationship (QSAR)
+	<p><b>Majumdar, S.</b>, Basak, S.C. and Grunwald, G.D. Adapting Interrelated Two-Way Clustering Method for Quantitative Structure-Activity Relationship (QSAR)
 	Modeling of Mutagenicity/ Non-Mutagenicity of a Diverse Set of Chemicals. <i>Curr. Comput. Aided Drug Des.</i>, <b>2013</b>, <i>9</i>, 463-471.
 	<a href="http://arxiv.org/ftp/arxiv/papers/1305/1305.7285.pdf" target="_blank">[pdf]</a></p>
 
 	<h3>Conference proceedings</h3>
 
-  <p><b>Majumdar, S.</b>, Dietz, L., Chatterjee, S. Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth.
+  <p><b>Majumdar, S.</b>, Dietz, L., and Chatterjee, S. Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth.
 	<i>Fifth International Workshop on Climate Informatics: CI 2015.</i>,
 	 ISBN: 978-0-9973548-0-5, <b>2015</b> <a href="docs/ci_abstract.pdf" target="_blank">[pdf];</a></p>
-	<p>Potash E., Walsh, J., Brew, J., Loewi, A., <b>Majumdar, S.</b>, Reece, A., Rozier, E., Jorgensen, E., Mansour, R., and Ghani, R.
+	<p>Potash E., Walsh, J., Brew, J., Loewi, A., <b>Majumdar, S.</b>, Reece, A., Rozier, E., Jorgensen, E., Mansour, R. and Ghani, R.
 	Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning. <i> KDD 2015</i>, <b>2015</b>, 2039-2047;
 	<a href="docs/Lead paper_p2039-potash.pdf" target="_blank">[pdf]</a>,
 	<a href="http://www.chicagotribune.com/news/watchdog/ct-lead-poisoning-solutions-20150707-story.html#page=1" target="_blank">[Chicago Tribune report]</a></p>
@@ -92,7 +92,7 @@
     <a href="http://arxiv.org/abs/1706.02429" target="_blank">[arXiv]</a>;
   </p>
 <i>Winner of 2016 IISA conference Best Student Paper in theory and methods Award.</i></p>
-  <p><b>Majumdar, S.</b> and Basak, S. C. Beware of external validation! –
+  <p><b>Majumdar, S.</b> and Basak, S.C. Beware of external validation! –
     A Comparative Study of Several Validation Techniques used in QSAR Modelling.
     <i>Submitted</i>, <b>2017+</b>;
   <p>Han, B., <b>Majumdar, S.</b> and others. Predicting primate sources of long-term Zika virus spillover infection.
@@ -101,13 +101,16 @@
   <p><b>Majumdar, S.</b>, Basu, S., Chatterjee, S. and McGue, M. Simultaneous Selection of Multiple Important Single Nucleotide
     Polymorphisms in Familial Genome Wide Association Studies data. <i>In preparation</i>.
   </p>
+  <p>Ghosh, A. and <b>Majumdar, S.</b> Ultrahigh-dimensional Robust and Efficient Sparse
+    Regression using Non-Concave Penalized Density Power Divergence. <i>In preparation</i>.
+  </p>
 
   <h3>Other</h3>
 
-  <p>(Invited) Basak, S.C., <b>Majumdar, S.</b> Editorial: Chemodescriptor Based QSARs of Structurally Homogeneous Versus Heterogeneous Chemical Data Sets:
+  <p>(Invited) Basak, S.C. and <b>Majumdar, S.</b> Editorial: Chemodescriptor Based QSARs of Structurally Homogeneous Versus Heterogeneous Chemical Data Sets:
     Some Comments on the Congenericity Principle vis-à-vis Diversity Begets Diversity Principle.
     <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 84-86;</p>
-  <p>(Invited) Basak, S.C., <b>Majumdar, S.</b> Editorial: The Importance of Rigorous Statistical Practice in the Current Landscape of QSAR Modelling.
+  <p>(Invited) Basak, S.C. and <b>Majumdar, S.</b> Editorial: The Importance of Rigorous Statistical Practice in the Current Landscape of QSAR Modelling.
   <i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, <i>11</i>, 2-4; <a href="docs/Editorial-CCADD-11-1.pdf" target="_blank">[pdf]</a></p>
   <p>(Technical report) <b>Majumdar, S.</b> Robust estimation of principal components from depth-based multivariate rank covariance matrix, <b>2015</b>.
   <a href="http://arxiv.org/abs/1502.07042" target="_blank">[arXiv]</a>.</p>

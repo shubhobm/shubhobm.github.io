@@ -55,19 +55,22 @@
 
     <p><i>Joint Estimation and Inference for Multiple Multi-layered Gaussian Graphical Models</i>,<br>
       2017 International Indian Statistical Association Conference, Hyderabad, India, December 2017.
+      <a href="docs/IISA-seminar-12-25-17.pdf" target="_blank">[slides]</a>
     </p>
 
     <p><i>Fast and General Best Subset Selection using Data Depth and Resampling</i>,<br>
       Indian Statistical Institute, Kolkata, India, December 2017.
+      <a href="docs/ISI-seminar-12-21.pdf" target="_blank">[slides]</a><br>
+      2016 International Indian Statistical Association Conference, Corvallis, OR, August 2016.
     </p>
 
     <p><i>Hunting Zika Virus with Machine Learning</i>,<br>
       ASA Twin Cities Chapter Spring Meeting, Minneapolis, MN, April 2017. <a href="docs/Huntin Zika_TCASA talk.pdf" target="_blank">[slides]</a><br>
     </p>
 
-    <p><i>A model selection criterion for regression estimators based on data depth</i>,<br>
+    <!--<p><i>A model selection criterion for regression estimators based on data depth</i>,<br>
     2016 International Indian Statistical Association Conference, Corvallis, OR, August 2016. <a href="docs/IISA-slides-Subho-Majumdar.pdf" target="_blank">[slides]</a><br>
-    </p>
+  </p>-->
 
     <p><i>False Discovery Rate: A Novel Approach for Multiple Hypothesis Testing</i>,<br>
       National Marrow Donor Program, Minneapolis, MN, July 2013. <a href="docs/FDR.pdf" target="_blank">[slides]</a></p>
