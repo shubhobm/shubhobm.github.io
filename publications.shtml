@@ -61,7 +61,7 @@
 	<h3>Journal Publications</h3>
 
   <p><b>Majumdar, S.</b> and Chatterjee, S. Nonconvex penalized multitask regression using data depth-based penalties.
-    <i>Stat</i>, <b>2017+</b>, <i>To appear</i>.
+    <i>Stat</i>, <b>2018</b>, <i>7</i>, e174.
     <a href="http://arxiv.org/abs/1610.07540" target="_blank">[arXiv]</a>
   </p>
   <p><b>Majumdar, S.</b> and Basak, S.C.
@@ -87,10 +87,15 @@
 
 	<h3>Upcoming</h3>
 
+  <p>Ghosh, A. and <b>Majumdar, S.</b> Ultrahigh-dimensional Robust and Efficient Sparse
+    Regression using Non-Concave Penalized Density Power Divergence.
+    <i>Preprint</i>, <b>2018</b>
+    <a href="http://arxiv.org/abs/1802.04906" target="_blank">[arXiv]</a>;
+  </p>
   <p><b>Majumdar, S.</b>, Basu, S. and Chatterjee, S. Simultaneous Selection of Multiple Important Single Nucleotide
     Polymorphisms in Familial Genome Wide Association Studies data.
     <i>Submitted</i>, <b>2018+</b>
-    <a href="docs/Twin-studies-e-values.pdf" target="_blank">[pdf]</a>;<br>
+    <a href="http://arxiv.org/abs/1802.01141" target="_blank">[arXiv]</a>;
   </p>
   <p>Han, B., <b>Majumdar, S.</b> and others. Predicting primate sources of long-term Zika virus spillover infection.
     <i>Submitted</i>, <b>2018+</b>;
@@ -103,9 +108,6 @@
   <p><b>Majumdar, S.</b> and Basak, S.C. Beware of external validation! –
     A Comparative Study of Several Validation Techniques used in QSAR Modelling.
     <i>Submitted</i>, <b>2017+</b>;
-  </p>
-  <p>Ghosh, A. and <b>Majumdar, S.</b> Ultrahigh-dimensional Robust and Efficient Sparse
-    Regression using Non-Concave Penalized Density Power Divergence. <i>In preparation</i>;
   </p>
   <p><b>Majumdar, S.</b> and Michailidis, G. Joint Estimation and Inference for
     Multiple Multi-layered Gaussian Graphical Models. <i>In preparation</i>.
