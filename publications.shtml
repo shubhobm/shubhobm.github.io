@@ -90,14 +90,14 @@
   <p><b>Majumdar, S.</b> and Michailidis, G. Joint Estimation and Inference for
     Data Integration Problems based on Multiple Multi-layered
     Gaussian Graphical Models. <i>Submitted</i>, <b>2018+</b>
-    <a href="docs/jmmle-draft.pdf" target="_blank">[pdf]</a>;
+    <a href="http://arxiv.org/abs/1803.03348" target="_blank">[arXiv]</a>;
   </p>
   <p>Ghosh, A. and <b>Majumdar, S.</b> Ultrahigh-dimensional Robust and Efficient Sparse
     Regression using Non-Concave Penalized Density Power Divergence.
-    <i>Preprint</i>, <b>2018</b>
+    <i>Submitted</i>, <b>2018+</b>
     <a href="http://arxiv.org/abs/1802.04906" target="_blank">[arXiv]</a>;
   </p>
-  <p><b>Majumdar, S.</b>, Basu, S. and Chatterjee, S. Simultaneous Selection of Multiple Important Single Nucleotide
+  <p><b>Majumdar, S.</b>, Basu, S., McGue, M. and Chatterjee, S. Simultaneous Selection of Multiple Important Single Nucleotide
     Polymorphisms in Familial Genome Wide Association Studies data.
     <i>Submitted</i>, <b>2018+</b>
     <a href="http://arxiv.org/abs/1802.01141" target="_blank">[arXiv]</a>;
@@ -130,7 +130,7 @@
 	 <!-- BEGIN footer.inc-->
   <div id="footer">
 <center>
-    <p>© Subho Majumdar 2017<br>
+    <p>© Subho Majumdar 2018<br>
 	<p><br> </p></center>  </div>
  <!-- END footer.inc-->
     <!-- end #container --></div>
