@@ -60,7 +60,11 @@
 
 	<h3>Journal Publications</h3>
 
-  <p><b>Majumdar, S.</b> and Chatterjee, S. Nonconvex penalized multitask regression using data depth-based penalties.
+    <p><b>Majumdar, S.</b> and Basak, S.C. Beware of external validation! –
+    A Comparative Study of Several Validation Techniques used in QSAR Modelling.
+	<i>Curr. Comput. Aided Drug Des.</i>, <b>2018+</b>, <i>in press</i>;</p>
+	</p>
+	<p><b>Majumdar, S.</b> and Chatterjee, S. Nonconvex penalized multitask regression using data depth-based penalties.
     <i>Stat</i>, <b>2018</b>, <i>7</i>, e174, doi: 10.1002/sta4.174.
     <a href="http://arxiv.org/abs/1610.07540" target="_blank">[arXiv]</a>
   </p>
@@ -110,20 +114,20 @@
     <a href="http://arxiv.org/abs/1706.02429" target="_blank">[arXiv]</a>;<br>
     <i>Winner of 2016 IISA conference Best Student Paper in theory and methods Award.</i></p>
   </p>
-  <p><b>Majumdar, S.</b> and Basak, S.C. Beware of external validation! –
-    A Comparative Study of Several Validation Techniques used in QSAR Modelling.
-    <i>Submitted</i>, <b>2017+</b>.
-  </p>
 
   <h3>Other</h3>
 
-  <p>(Invited) Basak, S.C. and <b>Majumdar, S.</b> Editorial: Chemodescriptor Based QSARs of Structurally Homogeneous Versus Heterogeneous Chemical Data Sets:
+	<p>(Invited) <b>Majumdar, S.</b> and Basak, S.C. Editorial: Beware of Na&iuml;ve <i>q</i><sup>2</sup>, use True <i>q</i><sup>2</sup>:
+	Some Comments on QSAR Model Building and Cross Validation.
+    <i>Curr. Comput. Aided Drug Des.</i>, <b>2018</b>, <i>14</i>, 5-6;
+	</p>
+	<p>(Invited) Basak, S.C. and <b>Majumdar, S.</b> Editorial: Chemodescriptor Based QSARs of Structurally Homogeneous Versus Heterogeneous Chemical Data Sets:
     Some Comments on the Congenericity Principle vis-à-vis Diversity Begets Diversity Principle.
     <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 84-86;</p>
-  <p>(Invited) Basak, S.C. and <b>Majumdar, S.</b> Editorial: The Importance of Rigorous Statistical Practice in the Current Landscape of QSAR Modelling.
-  <i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, <i>11</i>, 2-4; <a href="docs/Editorial-CCADD-11-1.pdf" target="_blank">[pdf]</a></p>
-  <p>(Technical report) <b>Majumdar, S.</b> Robust estimation of principal components from depth-based multivariate rank covariance matrix, <b>2015</b>.
-  <a href="http://arxiv.org/abs/1502.07042" target="_blank">[arXiv]</a>.</p>
+	<p>(Invited) Basak, S.C. and <b>Majumdar, S.</b> Editorial: The Importance of Rigorous Statistical Practice in the Current Landscape of QSAR Modelling.
+	<i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, <i>11</i>, 2-4; <a href="docs/Editorial-CCADD-11-1.pdf" target="_blank">[pdf]</a></p>
+	<p>(Technical report) <b>Majumdar, S.</b> Robust estimation of principal components from depth-based multivariate rank covariance matrix, <b>2015</b>.
+	<a href="http://arxiv.org/abs/1502.07042" target="_blank">[arXiv]</a>.</p>
 
 	<!-- end #mainContent --></div>
 	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
