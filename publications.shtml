@@ -36,7 +36,7 @@
       <i>
         <p>
           PhD<br>
-          University of Florida Informatics Institute
+          AT&T Labs Research
         </p></i>
       <b>
         <p><a href="index.html">Home</a></p>
@@ -61,13 +61,13 @@
 
 	<h3>Journal Publications</h3>
 
+  <p><b>Majumdar, S.</b> and Basak, S.C. Beware of external validation! –
+  A Comparative Study of Several Validation Techniques used in QSAR Modelling.
+  <i>Curr. Comput. Aided Drug Des.</i>, <b>2018</b>, <i>14</i>, 284-291;</p>
+  </p>
 	<p><b>Majumdar, S.</b>, Basak, S. C., Lungu, C. N., Diudea, M. V., Grunwald, G. D.
 		Mathematical structural descriptors and mutagenicity assessment: A study with congeneric and diverse data sets,
-		<i>SAR QSAR Environ. Res.</i>, <b>2018</b>, <i>in press</i>, doi: 10.1080/1062936X.2018.1496475.
-	</p>
-    <p><b>Majumdar, S.</b> and Basak, S.C. Beware of external validation! –
-    A Comparative Study of Several Validation Techniques used in QSAR Modelling.
-	<i>Curr. Comput. Aided Drug Des.</i>, <b>2018</b>, <i>in press</i>;</p>
+		<i>SAR QSAR Environ. Res.</i>, <b>2018</b>, <i>29</i>, 579-590, doi: 10.1080/1062936X.2018.1496475.
 	</p>
 	<p><b>Majumdar, S.</b> and Chatterjee, S. Nonconvex penalized multitask regression using data depth-based penalties.
     <i>Stat</i>, <b>2018</b>, <i>7</i>, e174, doi: 10.1002/sta4.174.

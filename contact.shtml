@@ -35,7 +35,7 @@
       <i>
         <p>
           PhD<br>
-          University of Florida Informatics Institute
+          AT&T Labs Research
         </p></i>
       <b>
         <p><a href="index.html">Home</a></p>
@@ -50,15 +50,14 @@
 <!-- END sidebar.inc -->
 
       <div id="mainContent">
-      <p><b>Email:</b> smajumdar@ufl.edu</p>
+      <p><b>Email:</b> subho@research.att.com</p>
         <!-- <tr>
           <td class="tableLabel">Phone</td>
           <td><p>(612) 806-9996</p></td>
         </tr> -->
           <h3>Office</h3>
-          <p>UF Informatics Institute<br />
-              432 Newell Drive, CISE Bldg E251<br />
-              Gainesville, FL 32611 <br />
+          <p>33 Thomas St, 2617D4<br />
+              New York, NY 10007 <br />
               USA<br />
           </p>
 
