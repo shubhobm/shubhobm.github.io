@@ -55,9 +55,16 @@
   <h3><a href="https://scholar.google.com/citations?user=wED36bwAAAAJ&hl=en">Google Scholar</a></h3>
   <h3>Book chapters</h3>
 
-	<p>Basak, S.C. and <b>Majumdar, S.</b> Current Landscape of Hierarchical QSAR Modeling and its Applications:
+	<p>
+	<b>Majumdar, S.</b> Data-driven Strategies to Model and Mitigate the Threat of Zika.
+	In <i>Zika virus: Basic biology, surveillance, vaccine design and anti-Zika drug discovery: Computer-assisted strategies to combat the menace</i>,
+	Basak, S. C., Bhattacharjee, A. K. and Nandy, A. eds., <b>2019</b>, in press, published by Nova Science Publishers, Inc.
+	</p>
+	<p>
+	Basak, S.C. and <b>Majumdar, S.</b> Current Landscape of Hierarchical QSAR Modeling and its Applications:
 	Some Comments on the Importance of Mathematical Descriptors as well as Rigorous Statistical Methods of Model Building and Validation.
 	In <i>Advances in Mathematical Chemistry and Applications: Vol. 1</i>, <b>2015</b>, 251-281, published by Elsevier and Bentham e-Books.
+	</p>
 
 	<h3>Journal Publications</h3>
 
@@ -95,22 +102,31 @@
 	In <i>Advances in Data Mining: Applications and Theoretical Aspects</i>, ser. <i>Lecture Notes in Computer Science</i>, <b>2015</b>, <i>9165</i>, 109-123.</p>
 
 	<h3>Upcoming</h3>
-
-  <p>Han, B., <b>Majumdar, S.</b> and others. Confronting data sparsity to identify
+	
+	<p>
+	<b>Majumdar, S.</b>, Basak, S. C., Lungu, C. N., Diudea, M. V., Grunwald, G. D.
+	Finding needles in a haystack: determining key molecular descriptors associated with the blood-brain barrier entry of chemical compounds using machine learning.
+	<i>Submitted</i>, <b>2018+</b>;
+	</p>
+  <p>
+  Han, B., <b>Majumdar, S.</b> and others. Confronting data sparsity to identify
   potential sources of Zika virus spillover infection among primates.
     <i>Submitted</i>, <b>2018+</b>;
   </p>
-  <p>Ghosh, A. and <b>Majumdar, S.</b> Ultrahigh-dimensional Robust and Efficient Sparse
+  <p>
+  Ghosh, A. and <b>Majumdar, S.</b> Ultrahigh-dimensional Robust and Efficient Sparse
     Regression using Non-Concave Penalized Density Power Divergence.
     <i>Submitted</i>, <b>2018+</b>
     <a href="http://arxiv.org/abs/1802.04906" target="_blank">[arXiv]</a>;
   </p>
-  <p><b>Majumdar, S.</b> and Michailidis, G. Joint Estimation and Inference for
+  <p>
+  <b>Majumdar, S.</b> and Michailidis, G. Joint Estimation and Inference for
     Data Integration Problems based on Multiple Multi-layered
     Gaussian Graphical Models. <i>Submitted</i>, <b>2018+</b>
     <a href="http://arxiv.org/abs/1803.03348" target="_blank">[arXiv]</a>;
   </p>
-  <p><b>Majumdar, S.</b>, Basu, S., McGue, M. and Chatterjee, S. Simultaneous Selection of Multiple Important Single Nucleotide
+  <p>
+  <b>Majumdar, S.</b>, Basu, S., McGue, M. and Chatterjee, S. Simultaneous Selection of Multiple Important Single Nucleotide
     Polymorphisms in Familial Genome Wide Association Studies data.
     <i>Submitted</i>, <b>2018+</b>
     <a href="http://arxiv.org/abs/1802.01141" target="_blank">[arXiv]</a>;
