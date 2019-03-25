@@ -53,8 +53,15 @@
   <div id="mainContent">
 
     <h3>Invited talks</h3>
+	
+	<p>
+	<i>To Watch or not to Watch: Early prediction of viewer engagement in a TV show using machine learning</i>,<br>
+	NYC Women in Machine Learning & Data Science meetup, New York, NY, March 2019.
+	<a href="https://www.meetup.com/NYC-Women-in-Machine-Learning-Data-Science/">[meetup details]</a>
+	</p>
 
-    <p><i>Joint Estimation and Inference for Multiple Multi-layered Gaussian Graphical Models</i>,<br>
+    <p>
+	<i>Joint Estimation and Inference for Multiple Multi-layered Gaussian Graphical Models</i>,<br>
       Savvysherpa, Inc., Minneapolis, MN, May 2018.
       <a href="docs/Savvysherpa-05-03-18.pdf" target="_blank">[slides]</a><br>
       2017 International Indian Statistical Association Conference, Hyderabad, India, December 2017.
@@ -131,7 +138,7 @@
 	 <!-- BEGIN footer.inc-->
   <div id="footer">
 <center>
-    <p>© Subho Majumdar 2018<br>
+    <p>© Subhabrata Majumdar 2019<br>
 	<p><br> </p></center>  </div>
  <!-- END footer.inc-->
     <!-- end #container --></div>
