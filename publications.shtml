@@ -52,7 +52,7 @@
 
   <div id="mainContent">
 
-  <h3><a href="https://scholar.google.com/citations?user=wED36bwAAAAJ&hl=en">Google Scholar</a></h3>
+  <h3><a href="https://scholar.google.com/citations?user=wED36bwAAAAJ&hl=en" target="_blank">Google Scholar</a></h3>
   <h3>Book chapters</h3>
 
 	<p>
@@ -63,7 +63,7 @@
 	<b>2019</b>, 129-152, published by Nova Science Publishers, Inc.
 	</p>
 	<p>
-	Basak, S.C. and <b>Majumdar, S.</b>
+	Basak, S.C., <b>Majumdar, S.</b>
 	Current Landscape of Hierarchical QSAR Modeling and its Applications:
 	Some Comments on the Importance of Mathematical Descriptors as well as Rigorous Statistical Methods of Model Building and Validation.
 	In <i>Advances in Mathematical Chemistry and Applications: Vol. 1</i>, <b>2015</b>, 251-281, published by Elsevier and Bentham e-Books.
@@ -72,21 +72,27 @@
 	<h3>Journal Publications</h3>
 	
 	<p>
+	Basak, S. C., <b>Majumdar, S.</b>, Nandy, A., Roy, P., Dutta, T., Vracko, M., Bhattacharjee, A. K.
+	Computer-Assisted and Data Driven Approaches for Surveillance, Drug Discovery and Vaccine Design for the Zika Virus,
+	<i>Pharmaceuticals</i>, <b>2019</b>, <i>12</i>, 157, doi: 10.3390/ph12040157.
+	<a href="https://www.mdpi.com/1424-8247/12/4/157" target="_blank">[paper]</a>
+	</p>
+	<p>
 	<b>Majumdar, S.</b>, Basak, S. C., Lungu, C. N., Diudea, M. V., Grunwald, G. D.
 	Finding needles in a haystack: determining key molecular descriptors associated with the blood-brain barrier entry
-	of chemical compounds using machine learning, <i>Mol. Inform.</i>, <b>2019</b>, <i>in press</i>, doi: 10.1002/minf.201800164;
+	of chemical compounds using machine learning, <i>Mol. Inform.</i>, <b>2019</b>, <i>38</i>, 1800164, doi: 10.1002/minf.201800164.
 	</p>
 	<p>
 	Han, B., <b>Majumdar, S.</b> and others.
 	Confronting data sparsity to identify potential sources of Zika virus spillover infection among primates.
     <i>Epidemics</i>, <b>2019</b>, <i>27</i>, 59-65, doi: 10.1016/j.epidem.2019.01.005.
-	<a href="https://www.caryinstitute.org/newsroom/new-model-ids-primate-species-potential-spread-zika-americas">[press release]</a>,
-	<a href="https://doi.org/10.1016/j.epidem.2019.01.005">[paper]</a>
+	<a href="https://www.caryinstitute.org/newsroom/new-model-ids-primate-species-potential-spread-zika-americas" target="_blank">[press release]</a>,
+	<a href="https://doi.org/10.1016/j.epidem.2019.01.005" target="_blank">[paper]</a>
 	</p>
 	<p>
-	<b>Majumdar, S.</b> and Basak, S.C.
+	<b>Majumdar, S.</b>, Basak, S.C.
 	Beware of external validation! – A Comparative Study of Several Validation Techniques used in QSAR Modelling.
-	<i>Curr. Comput. Aided Drug Des.</i>, <b>2018</b>, <i>14</i>, 284-291;
+	<i>Curr. Comput. Aided Drug Des.</i>, <b>2018</b>, <i>14</i>, 284-291.
 	</p>
 	<p>
 	<b>Majumdar, S.</b>, Basak, S. C., Lungu, C. N., Diudea, M. V., Grunwald, G. D.
@@ -101,16 +107,16 @@
   <p>
   <b>Majumdar, S.</b> and Basak, S.C.
   Exploring intrinsic dimensionality of chemical spaces for robust QSAR model development: A comparison of several statistical approaches.
-  <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 294-301;
+  <i>Curr. Comput. Aided Drug Des.</i>, <b>2016</b>, <i>12</i>, 294-301.
   </p>
   <p>
-  Basak, S.C. and <b>Majumdar, S.</b>
+  Basak, S.C., <b>Majumdar, S.</b>
   Prediction of Mutagenicity of Chemicals from Their Calculated Molecular Descriptors:
   A Case Study with Structurally Homogeneous versus Diverse Datasets.
-  <i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, <i>11</i>, 117-123;
+  <i>Curr. Comput. Aided Drug Des.</i>, <b>2015</b>, <i>11</i>, 117-123.
   </p>
   <p>
-  <b>Majumdar, S.</b>, Basak, S.C. and Grunwald, G.D.
+  <b>Majumdar, S.</b>, Basak, S.C., Grunwald, G.D.
   Adapting Interrelated Two-Way Clustering Method for Quantitative Structure-Activity Relationship (QSAR)
   Modeling of Mutagenicity/ Non-Mutagenicity of a Diverse Set of Chemicals.
   <i>Curr. Comput. Aided Drug Des.</i>, <b>2013</b>, <i>9</i>, 463-471.
@@ -120,49 +126,54 @@
   <h3>Conference proceedings</h3>
 
   <p>
-  <b>Majumdar, S.</b>, Dietz, L., and Chatterjee, S.
+  <b>Majumdar, S.</b>, Dietz, L., Chatterjee, S.
   Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth.
   <i>Fifth International Workshop on Climate Informatics: CI 2015.</i>,
-  ISBN: 978-0-9973548-0-5, <b>2015</b> <a href="docs/ci_abstract.pdf" target="_blank">[pdf]</a>;
+  ISBN: 978-0-9973548-0-5, <b>2015</b>. <a href="docs/ci_abstract.pdf" target="_blank">[pdf]</a>
   </p>
-  <p>Potash E., Walsh, J., Brew, J., Loewi, A., <b>Majumdar, S.</b>, Reece, A., Rozier, E., Jorgensen, E., Mansour, R. and Ghani, R.
+  <p>
+  Potash E., Walsh, J., Brew, J., Loewi, A., <b>Majumdar, S.</b>, Reece, A., Rozier, E., Jorgensen, E., Mansour, R., Ghani, R.
   Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning.
-  <i> KDD 2015</i>, <b>2015</b>, 2039-2047;
+  <i> KDD 2015</i>, <b>2015</b>, 2039-2047.
   <a href="docs/Lead paper_p2039-potash.pdf" target="_blank">[pdf]</a>,
-  <a href="http://www.chicagotribune.com/news/watchdog/ct-lead-poisoning-solutions-20150707-story.html#page=1" target="_blank">[Chicago Tribune report]</a></p>
-  <p>Mukherjee, U., <b>Majumdar, S.</b> and Chatterjee, S. Fast and robust supervised learning in high dimensions using the geometry of the data.
-  In <i>Advances in Data Mining: Applications and Theoretical Aspects</i>, ser. <i>Lecture Notes in Computer Science</i>, <b>2015</b>, <i>9165</i>, 109-123.</p>
+  <a href="http://www.chicagotribune.com/news/watchdog/ct-lead-poisoning-solutions-20150707-story.html#page=1" target="_blank">[Chicago Tribune report]</a>
+  </p>
+  <p>
+  Mukherjee, U., <b>Majumdar, S.</b> and Chatterjee, S. Fast and robust supervised learning in high dimensions using the geometry of the data.
+  In <i>Advances in Data Mining: Applications and Theoretical Aspects</i>, ser. <i>Lecture Notes in Computer Science</i>, <b>2015</b>, <i>9165</i>, 109-123.
+  </p>
 
 <h3>Upcoming</h3>
 
 	<p>
 	<b>Majumdar, S.</b>, Chatterjee, S.
-	On Weighted Multivariate Sign Functions. <i>Submitted</i>, <b>2019+</b>;
+	On Weighted Multivariate Sign Functions. <i>Preprint</i>, <b>2019+</b>
+    <a href="http://arxiv.org/abs/1905.02700" target="_blank">[arXiv]</a>.
 	</p>
 	<p>
-	Ghosh, A. and <b>Majumdar, S.
+	Ghosh, A., <b>Majumdar, S.
 	</b> Ultrahigh-dimensional Robust and Efficient Sparse Regression using Non-Concave Penalized Density Power Divergence.
-    <i>Submitted</i>, <b>2018+</b>
-    <a href="http://arxiv.org/abs/1802.04906" target="_blank">[arXiv]</a>;
+    <i>Preprint</i>, <b>2018+</b>
+    <a href="http://arxiv.org/abs/1802.04906" target="_blank">[arXiv]</a>.
 	</p>
 	<p>
 	<b>Majumdar, S.</b> and Michailidis, G.
 	Joint Estimation and Inference for Data Integration Problems based on Multiple Multi-layered Gaussian Graphical Models.
-	<i>Submitted</i>, <b>2018+</b>
-    <a href="http://arxiv.org/abs/1803.03348" target="_blank">[arXiv]</a>;
+	<i>Preprint</i>, <b>2018+</b>.
+    <a href="http://arxiv.org/abs/1803.03348" target="_blank">[arXiv]</a>
 	</p>
 	<p>
 	<b>Majumdar, S.</b>, Basu, S., McGue, M. and Chatterjee, S.
 	Simultaneous Selection of Multiple Important Single Nucleotide Polymorphisms in Familial Genome Wide Association Studies data.
-    <i>Preprint</i>, <b>2018+</b>
-    <a href="http://arxiv.org/abs/1802.01141" target="_blank">[arXiv]</a>;
+    <i>Preprint</i>, <b>2018+</b>.
+    <a href="http://arxiv.org/abs/1802.01141" target="_blank">[arXiv]</a>
 	</p>
 	<p>
 	<b>Majumdar, S.</b> and Chatterjee, S.
 	Fast and General Best Subset Selection using Data Depth and Resampling;
-    <i>Preprint</i>, <b>2017+</b>
+    <i>Preprint</i>, <b>2017+</b>.
     <a href="http://arxiv.org/abs/1706.02429" target="_blank">[arXiv]</a>;<br>
-    <i>Winner of 2016 IISA conference Best Student Paper in theory and methods Award.</i></p>
+    <i>Winner of 2016 IISA conference Best Student Paper in theory and methods Award.</i>
 	</p>
 	
 	<h3>Other</h3>
