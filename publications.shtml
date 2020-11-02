@@ -153,6 +153,11 @@
 <h3>Upcoming</h3>
 
 	<p>
+	Rustamov, R., <b>Majumdar, S.</b>
+	Intrinsic Sliced Wasserstein Distances for Comparing Collections of Probability Distributions on Manifolds and Graphs. <i>Preprint</i>, <b>2020+</b>
+    <a href="https://arxiv.org/abs/2010.15285" target="_blank">[arXiv]</a>;
+	</p>
+	<p>
 	Farias, V., Timbo, F., Flynn, C., Machado, J., <b>Majumdar, S.</b>, Srivastava, D.
 	Local Dampening: Differential Privacy for Non-numeric Queries via Local Sensitivity. <i>Submitted</i>, <b>2020+</b>;
 	</p>
@@ -205,7 +210,7 @@
 	 <!-- BEGIN footer.inc-->
   <div id="footer">
 <center>
-    <p>© Subhabrata Majumdar 2019<br>
+    <p>© Subhabrata Majumdar 2020<br>
 	<p><br> </p></center>  </div>
  <!-- END footer.inc-->
     <!-- end #container --></div>
