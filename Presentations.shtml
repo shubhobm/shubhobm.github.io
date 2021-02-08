@@ -52,91 +52,49 @@
 
   <div id="mainContent">
 
-    <h3>Invited talks</h3>
+    <h3>Talks</h3>
 	
 	<p>
-	<i>System to Integrate Fairness Transparently: an Industry Approach</i>,<br>
-	(Upcoming) Data Science Salon Virtual, December 2020.
+	<b>06/2021</b>
+	<a href="https://ww2.amstat.org/meetings/sdss/2021/onlineprogram/AbstractDetails.cfm?AbstractID=309684" target="_blank">
+	ASA 2021 Symposium on Data Science and Statistics</a><br>
+    <b>05/2021</b>
+	<a href="https://www.intindstat.org/summerConference2021/" target="_blank">International Indian Statistical Association Conference-2021</a><br>
+	<b>02/2021</b>
+	<a href="https://ww2.amstat.org/meetings/csp/2021/onlineprogram/AbstractDetails.cfm?AbstractID=304152" target="_blank">ASA Conference on Statistical Practice</a><br>
+	<b>12/2020</b>
+	<a href="https://www.datascience.salon/subhabrata-majumdar" target="_blank">Data Science Salon Virtual</a><br>
+	<b>11/2020</b>
+	Indian Institute of Technology, Kanpur Data Science Seminar Series (3 invited talks)<br>
+	<b>02/2020</b> Invited talk on Data Science Research in AT&T in
+	<a href="https://www.niss.org/advice-and-insights-offered-during-third-niss-industry-career-fair" target="_blank">3rd NISS Virtual Industry Career Fair</a><br>
+	<b>11/2019</b>
+	<a href="http://stats.research.att.com/grad-symposium/" target="_blank">3rd AT&T Graduate Student Symposium</a><br>
+	<b>03/2019</b>
+	<a href="https://www.meetup.com/NYC-Women-in-Machine-Learning-Data-Science/" target="_blank">NYC Women in Machine Learning & Data Science meetup</a><br>
+    <b>05/2018</b>
+	Savvysherpa, Inc., Minneapolis, MN <a href="docs/Savvysherpa-05-03-18.pdf" target="_blank">[slides]</a><br>
+	<b>05/2018</b>
+    International Indian Statistical Association Conference-2018, Gainesville, FL
+    <a href="docs/IISA-slides-Subho-Majumdar-session-IP52.pdf" target="_blank">[slides]</a><br>
+    <b>12/2017</b>
+	International Indian Statistical Association Conference-2017, Hyderabad, India<br>
+    <b>12/2017</b>
+	Indian Statistical Institute, Kolkata, India, <a href="docs/ISI-seminar-12-21.pdf" target="_blank">[slides]</a><br>
+    <b>04/2017</b>
+	ASA Twin Cities Chapter Spring Meeting, Minneapolis, MN <a href="docs/Huntin Zika_TCASA talk.pdf" target="_blank">[slides]</a><br>
+	<b>08/2016</b>
+	International Indian Statistical Association Conference-2016, Corvallis, OR<br>
+    <b>07/2013</b>
+    National Marrow Donor Program, Minneapolis, MN <a href="docs/FDR.pdf" target="_blank">[slides]</a>
 	</p>
-	<p>
-	<i>Data Science Seminar Series (3 talks)</i>,<br>
-	(Upcoming) Indian Institute of Technology, Kanpur, India, November 2020.
-	</p>
-	<p>
-	<i>Data Science in AT&T: a Labs perspective</i>,<br>
-	3rd NISS Virtual Industry Career Fair, February 2020.
-	<a href="https://www.niss.org/advice-and-insights-offered-during-third-niss-industry-career-fair">[details]</a>
-	</p>
-	<p>
-	<i>Scaling New Peaks: a Viewership-Centric Approach to Content Curation</i>,<br>
-	(Upcoming) ASA Conference on Statistical Practice, February 2021,<br>
-	3rd AT&T Graduate Student Symposium, New York, NY, November 2019.
-	</p>
-	<p>
-	<i>To Watch or not to Watch: Early prediction of viewer engagement in a TV show using machine learning</i>,<br>
-	NYC Women in Machine Learning & Data Science meetup, New York, NY, March 2019.
-	<a href="https://www.meetup.com/NYC-Women-in-Machine-Learning-Data-Science/">[meetup details]</a>
-	</p>
-    <p>
-	<i>Joint Estimation and Inference for Multiple Multi-layered Gaussian Graphical Models</i>,<br>
-      Savvysherpa, Inc., Minneapolis, MN, May 2018.
-      <a href="docs/Savvysherpa-05-03-18.pdf" target="_blank">[slides]</a><br>
-      2017 International Indian Statistical Association Conference, Hyderabad, India, December 2017.
-    </p>
-    <p><i>Ultrahigh-dimensional Robust and Efficient Sparse
-      Regression using Non-Concave Penalized Density Power Divergence</i>,<br>
-      2018 International Indian Statistical Association Conference,
-      Gainesville, FL, May 2018.
-      <a href="docs/IISA-slides-Subho-Majumdar-session-IP52.pdf" target="_blank">[slides]</a><br>
-    </p>
-    <p><i>Fast and General Best Subset Selection using Data Depth and Resampling</i>,<br>
-      Indian Statistical Institute, Kolkata, India, December 2017.
-      <a href="docs/ISI-seminar-12-21.pdf" target="_blank">[slides]</a><br>
-      2016 International Indian Statistical Association Conference, Corvallis, OR, August 2016.
-    </p>
-    <p><i>Hunting Zika Virus with Machine Learning</i>,<br>
-      ASA Twin Cities Chapter Spring Meeting, Minneapolis, MN, April 2017. <a href="docs/Huntin Zika_TCASA talk.pdf" target="_blank">[slides]</a><br>
-    </p>
-
-    <!--<p><i>A model selection criterion for regression estimators based on data depth</i>,<br>
-    2016 International Indian Statistical Association Conference, Corvallis, OR, August 2016. <a href="docs/IISA-slides-Subho-Majumdar.pdf" target="_blank">[slides]</a><br>
-  </p>-->
-
-    <p><i>False Discovery Rate: A Novel Approach for Multiple Hypothesis Testing</i>,<br>
-      National Marrow Donor Program, Minneapolis, MN, July 2013. <a href="docs/FDR.pdf" target="_blank">[slides]</a></p>
 
   <h3>Posters</h3>
 
-  <p><i>Predicting primate sources of Zika virus spillover</i>,
-    EPIDEMICS 6, Barcelona, Spain, Nov-Dec 2017.
-    <a href="docs/EPIDEMICS6 Zika poster final.pdf" target="_blank">[pdf]</a>
-  </p>
-	<p><i>Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth</i>,<br>
-	9th International Calcutta Triennial Symposium, Kolkata, India, December 2015. <a href="docs/ci_poster.pdf" target="_blank">[pdf]</a>;<br>
-  (Refereed) 5th International Workshop on Climate Informatics, Boulder, CO, September 2015.</p>
-	<p><i>Preventing Lead Poisoning in Chicago</i>, KDD 2014, New York City, NY, August 2014.
-	<a href="docs/CDPH-poster-1.pdf" target="_blank">[pdf]</a></p>
-
-	<h3>Conferences</h3>
-	<p><i>Simultaneous Selection of Multiple Important Single Nucleotide Polymorphisms
-	in Familial Genome Wide Association Studies Data</i>,<br>
-    2018 ENAR Spring Meeting, Atlanta, GA, March 2018.
-  	<a href="docs/ENAR-slides-3-26.pdf" target="_blank">[slides]</a></p>
-	</p>
-	<p><i>Hunting Zika Virus with Machine Learning</i>,<br>
-    Data Science for Social Good Conference, Chicago, IL, August 2016.
-  </p>
-  <p><i>A model selection criterion for regression estimators based on data depth</i>,<br>
-  Joint Statistical Meetings, Chicago, IL, July 2016.
-  </p>
-  <p><i>Nonconvex penalized regression using depth-based penalty functions:
-    multitask earning and support union recovery in high dimensions</i>,<br>
-    2017 ENAR Spring Meeting, Washington, DC, March 2017. <a href="docs/slides-ENAR.pdf" target="_blank">[slides]</a><br>
-	<p><i>Robust estimation of principal components from depth-based multivariate rank covariance matrix</i>,<br>
-    Joint Statistical Meetings, Seattle, WA, August 2015.
-	<a href="docs/JSMtalk_depth-scatter.pdf" target="_blank">[slides]</a></p>
-	<p><i>Modeling Mutagenicity Status of a Diverse Set of Chemical Compounds by Envelope Methods</i>:<br>
-	Joint Statistical Meetings, Boston, MA, August 2014. <a href="docs/jsm14slides_v1.pdf" target="_blank">[slides]</a><br>
+	<p>
+	<b>12/2015</b> 9th International Calcutta Triennial Symposium, Kolkata, India <a href="docs/ci_poster.pdf" target="_blank">[pdf]</a><br>
+	<b>09/2015</b> 5th International Workshop on Climate Informatics, Boulder, CO<br>
+	<!-- <b>07/2014</b> KDD 2014, New York City, NY, <a href="docs/CDPH-poster-1.pdf" target="_blank">[pdf]</a> -->
 	</p>
 
 	<!-- end #mainContent --></div>
@@ -144,7 +102,7 @@
 	 <!-- BEGIN footer.inc-->
   <div id="footer">
 <center>
-    <p>© Subhabrata Majumdar 2020<br>
+    <p>© Subhabrata Majumdar 2021<br>
 	<p><br> </p></center>  </div>
  <!-- END footer.inc-->
     <!-- end #container --></div>

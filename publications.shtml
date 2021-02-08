@@ -132,6 +132,10 @@
   
   <h3>Conference proceedings</h3>
 
+	<p>
+	Farias, V., Timbo, F., Flynn, C., Machado, J., <b>Majumdar, S.</b>, Srivastava, D.
+	Local Dampening: Differential Privacy for Non-numeric Queries via Local Sensitivity. <i>VLDB 2021</i>, <b>2021</b>, in press;
+	</p>
   <p>
   <b>Majumdar, S.</b>, Dietz, L., Chatterjee, S.
   Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth.
@@ -156,10 +160,6 @@
 	Rustamov, R., <b>Majumdar, S.</b>
 	Intrinsic Sliced Wasserstein Distances for Comparing Collections of Probability Distributions on Manifolds and Graphs. <i>Preprint</i>, <b>2020+</b>
     <a href="https://arxiv.org/abs/2010.15285" target="_blank">[arXiv]</a>;
-	</p>
-	<p>
-	Farias, V., Timbo, F., Flynn, C., Machado, J., <b>Majumdar, S.</b>, Srivastava, D.
-	Local Dampening: Differential Privacy for Non-numeric Queries via Local Sensitivity. <i>Submitted</i>, <b>2020+</b>;
 	</p>
 	<p>
 	Dodwell, E., Flynn, C., Krishnamurthy, B., <b>Majumdar, S.</b>, Mitra, R.
