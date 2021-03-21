@@ -67,6 +67,7 @@ body {
     background-color: #fff;
     padding:30px 50px 50px 50px;
     font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/1.5 'Open Sans', sans-serif;
     color:#333;
     font-weight:400;
 }
@@ -86,6 +87,14 @@ nav > ul {margin: 0}
 .nav>li {
   float: left;
   list-style-type: none;
+}
+
+.nav > li > a:focus, 
+.nav > li > a:hover 
+{
+    text-decoration: underline;
+	color: black;
+    background-color: #dcdcdc;
 }
 
 .table-hover > tbody > tr:hover {
@@ -120,10 +129,17 @@ li{
      position: relative;
      padding-left:1em
  }
+ 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
 h1, h2 {
   line-height:1.1;
   padding-bottom:10px;
   margin:0px;
+  font-weight: bold;
 }
 
 h1 {
