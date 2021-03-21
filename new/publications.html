@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-    <title>Shalmali Joshi</title>
+    <title>Subho Majumdar</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
@@ -28,8 +28,7 @@
     <nav class="navbar navbar-default">
       <!--div class="container"-->
         <ul class="nav navbar-nav ml-auto">
-          <li><a href="/"><h3>Home</h3></a></li>
-          <li><a href="/#news"><h3>News</h3></a></li>
+          <li><a href="index.html"><h3>Home</h3></a></li>
           <li><a href="publications.html"><h3>Publications</h3></a></li>
           <li><a href="professionalactivities.html"><h3>Professional Activities</h3></a></li>
         </ul>
@@ -41,125 +40,243 @@
       <div  id="publications" class="wrapper">
           <section style="display:block;width:100%">
               <h2 style="display:inline-block"> Publications </h2> &nbsp;<span style="border:2px; border-style:solid; border-color:#000000; border-radius: 7px; padding:6px; text-align:center">
-                          <a style="margin:0px 0px;color:#000;text-decoration:none;font-size:16px" href="https://scholar.google.com/citations?hl=en&user=x5wW5WIAAAAJ&view_op=list_works&sortby=pubdate" target="_blank"><!--img alt="google scholar logo" src="images/scholar.png" style="height:15px;vertical-align:middle;"/--><i class="ai ai-google-scholar"></i>&nbsp;Google Scholar
+                          <a style="margin:0px 0px;color:#000;text-decoration:none;font-size:16px" href="https://scholar.google.com/citations?hl=en&user=wED36bwAAAAJ&view_op=list_works&sortby=pubdate" target="_blank"><!--img alt="google scholar logo" src="images/scholar.png" style="height:15px;vertical-align:middle;"/--><i class="ai ai-google-scholar"></i>&nbsp;Google Scholar
                           </a>
               </span>
               <span style="display:inline-block;float:right;text-align:right">
-                  <!--a class="button" href="http://dblp.uni-trier.de/pers/hd/g/Gunasekar:Suriya"  style="text-decoration:None;vertical-align:middle;" target="_blank">
-                      <img alt="dblp logo" src="images/dblp.png" style="height:20px;vertical-align:middle;">&nbsp;DBLP
-                  </a-->
-
-                  <!--span style="border:2px; border-style:solid; border-color:#333333; border-radius: 7px; padding:6px; text-align:center">
-                      <a href="https://scholar.google.com/citations?hl=en&user=EkREu_QAAAAJ&view_op=list_works&sortby=pubdate" style="text-decoration:None;vertical-align:middle;" target="_blank"><i class="ai ai-google-scholar"></i>&nbsp;Google Scholar
-                      </a>
-                  </span>&nbsp;-->
                   <select id="dropdown" onchange="selectField(this)" autocomplete="off">
                       <option value="all"  selected="selected">---Filter by  topic---</option>
-                      <option value="ML">ML</option>
-                      <option value="ethics">ML-Ethics</option>
-                      <option value="health">Healthcare</option>
+                      <option value="statml">Statistics/ML</option>
+                      <option value="trustml">Trustworthy ML</option>
+                      <option value="qsar">Computational chemistry</option>
+                      <option value="pubh">Public health</option>
+                      <option value="oth">Other applied</option>
                   </select>
               </span>
-
-
 
               <div class="table-responsive"  style="max-width:1200px;display:block;width:100%;padding-top:10px">
                   <table class="table table-hover" style="max-width:1200px;">
                       <thead>
                           <tr>
                               <th>Year</th>
-                              <th>Publication</th>
+                              <th>Publication (*Alphabetical authors)</th>
                           </tr>
                       </thead>
 
                       <tbody id="pub">
                       <!--tbody-->
-                          <tr data-tags='["ML","health"]'><td>2020</td>
-                              <td>S. Wang*, S. Yi*, <b>S. Joshi</b>, M. Ghassemi <b><a href="https://arxiv.org/abs/2011.08753" style="text-decoration:underline;color:#145A8C"  target="_blank"> Confounding Feature Acquisition for Causal Effect Estimation</a></b>. ML4H@NeurIPS 2020 Proceedings (to appear).
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML","health"]'><td>2020</td>
-                              <td>T. Killian, M. Ghassemi, <b>S. Joshi</b><b><a href="https://arxiv.org/abs/2006.11654" style="text-decoration:underline;color:#145A8C"  target="_blank">  Counterfactually Guided Policy Transfer in Clinical Settings </a></b>. BIG in RL @ICML 2020.
-                              </td>
-                          </tr>
-                          <tr data-tags='["health"]'><td>2020</td>
-                              <td>I. Chen*, <b>S. Joshi*</b>, M. Ghassemi, R. Ranganath <b><a href="https://arxiv.org/abs/2009.11087" style="text-decoration:underline;color:#145A8C"  target="_blank"> Probabilistic Machine Learning for Healthcare</a></b>. arXiv Preprint 2020.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ethics","health"]'><td>2020</td>
-                              <td>I. Chen, E. Pierson, S. Rose, <b>S. Joshi</b>, M. Ghassemi <b><a href="https://arxiv.org/abs/2009.10576" style="text-decoration:underline;color:#145A8C"  target="_blank"> Ethical Machine Learning in Health Care</a></b>. arXiv Preprint 2020.
-                              </td>
-                          </tr>
-                          <tr data-tags='["health"]'><td>2020</td>
-                              <td>F. Rudzicz, <b>S. Joshi</b> <b><a href="https://link.springer.com/chapter/10.1007/978-3-030-49100-0_25" style="text-decoration:underline;color:#145A8C"  target="_blank"> Explainable AI for the Operating Theater</a></b>. Springer 2020.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML","health"]'><td>2020</td>
-                              <td>S. Tonekaboni*, <b>S. Joshi*</b>, K. Campbell, D. Duvenaud, A. Goldenberg <b><a href="https://arxiv.org/abs/2003.02821" style="text-decoration:underline;color:#145A8C"  target="_blank"> What went wrong and when? Instance-wise Feature Importance for Time-series Models</a></b>. NeurIPS 2020.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML"]'><td>2020</td>
-                              <td>A. Yeung, <b>S. Joshi</b>, J. Williams, F. Rudzicz <b><a href="https://arxiv.org/abs/2007.09028" style="text-decoration:underline;color:#145A8C"  target="_blank"> Sequential Explanations with Mental Model-Based Policies</a></b>. Workshop on Human Interpretability in Machine Learning @ICML 2020 (Spotlight).
-                              </td>
-                          </tr>
-                          <tr data-tags='["ethics", "health"]'><td>2020</td>
-                              <td>M. McCradden, <b>S. Joshi</b>, J. Anderson, M. Mazwi, A. Goldenberg, R. Shaul <b><a href="https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocaa085/5862600" style="text-decoration:underline;color:#145A8C"  target="_blank"> Patient safety and quality improvement: Ethical principles for a regulatory approach to bias in healthcare machine learning </a></b>. JAMIA 2020.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ethics", "health"]'><td>2020</td>
-                              <td>M. McCradden, <b>S. Joshi</b>, M. Mazwi, J. Anderson <b><a href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30065-0/fulltext" style="text-decoration:underline;color:#145A8C"  target="_blank"> Ethical limitations of algorithmic fairness solutions in health care machine learning </a></b>. LDH 2020, AIES 2020, FairML for Health @NeurIPS 2020.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ethics", "health"]'><td>2020</td>
-                              <td>I. Chen, <b>S. Joshi</b>, M. Ghassemi <b><a href="https://www.nature.com/articles/s41591-019-0649-2" style="text-decoration:underline;color:#145A8C"  target="_blank"> Treating health disparities with artificial intelligence </a></b>. Nature Medicine 2020.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML", "health"]'><td>2019</td>
-                              <td>S. Tonekaboni, <b>S. Joshi</b>, A. Goldenberg <b><a href="" style="text-decoration:underline;color:#145A8C"  target="_blank"> Individualized Feature Importance for Time Series Risk Prediction Models </a></b>. NeurIPS ML4H Workshop 2019.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML", "health"]'><td>2019</td>
-                              <td>S. Yi, S. Wang, <b>S. Joshi</b>, M. Ghassemi <b><a href="" style="text-decoration:underline;color:#145A8C"  target="_blank"> Fair and Robust Treatment Effect Estimates: Estimation Under Treatment and Outcome Disparity with Deep Neural Models </a></b>. NeurIPS ML4H and Fair ML for Health Workshop 2019.
-                              </td>
-                          </tr>
-                          <tr data-tags='["health"]'><td>2019</td>
-                              <td>M. McCradden, S. Tonekaboni, <b>S. Joshi</b>, A. Goldenberg <b><a href="https://med.stanford.edu/frontierofaicare.html" style="text-decoration:underline;color:#145A8C"  target="_blank"> Five Pillars of Explainable Clinical Machine Learning </a></b>. Stanford Frontier of AI-Assisted Care (FAC) Scientific Symposium.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML", "health"]'><td>2019</td>
-                              <td>S. Tonekaboni, <b>S. Joshi</b>, M. McCradden, A. Goldenberg <b><a href="https://arxiv.org/abs/1907.09615" style="text-decoration:underline;color:#145A8C"  target="_blank"> What Clinicians Want: Contextualizing Explainable Machine Learning for Clinical End Use </a></b>. MLHC 2019.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML"]'><td>2019</td>
-                              <td><b>S. Joshi</b>, O. Koyejo, W. Vijitbenjaronk, B. Kim, J. Ghosh <b><a href="https://arxiv.org/abs/1907.09615" style="text-decoration:underline;color:#145A8C"  target="_blank"> Towards Realistic Individual Recourse and Actionable Explanations in Black-Box Decision Making Systems </a></b>. SafeML Workshop @ICLR 2019.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML"]'><td>2018</td>
-                              <td><b>S. Joshi</b>, R. Khanna, J. Ghosh <b><a href="https://epubs.siam.org/doi/pdf/10.1137/1.9781611975321.49" style="text-decoration:underline;color:#145A8C"  target="_blank"> Co-regularized Monotone Retargeting for Semi-supervised LeTOR </a></b>. SDM 2018.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML","health"]'><td>2018</td>
-                              <td><b>S. Joshi</b>, S. Gunasekar, D. Sontag J. Ghosh <b><a href="http://proceedings.mlr.press/v56/Joshi16.html" style="text-decoration:underline;color:#145A8C"  target="_blank"> Identifiable Phenotyping using Constrained Non-Negative Matrix Factorization </a></b>. MLHC 2018.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML"]'><td>2016</td>
-                              <td><b>S. Joshi</b>, O. Koyejo, M. Reid, J. Ghosh <b><a href="https://link.springer.com/article/10.1007/s10994-016-5543-2" style="text-decoration:underline;color:#145A8C"  target="_blank"> Rényi divergence minimization based co-regularized multiview clustering </a></b>. ECML-PKDD Journal track 2016.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML"]'><td>2016</td>
-                              <td><b>S. Joshi</b>, O. Koyejo, J. Ghosh <b><a href="https://ieeexplore.ieee.org/abstract/document/7349749" style="text-decoration:underline;color:#145A8C"  target="_blank"> Simultaneous Prognosis of Multiple Chronic Conditions from Heterogeneous EHR Data </a></b>. ICHI 2016.
-                              </td>
-                          </tr>
-                          <tr data-tags='["ML"]'><td>2014</td>
-                              <td><b>S. Joshi</b>, O. Koyejo, J. Ghosh <b><a href="https://ieeexplore.ieee.org/abstract/document/7349749" style="text-decoration:underline;color:#145A8C"  target="_blank"> Multiview Clustering via Constrained Bayesian Inference </a></b>. Workshop on Divergence Methods for Probabilistic Inference @ICML 2014.
-                              </td>
-                          </tr>
-                      </tbody>
+                        <tr data-tags='["trustml"]'><td>2021</td>
+                            <td>N. Derzsy*, <b>S. Majumdar</b>*, R. Malik*.
+							 An Interpretable Graph-based Mapping of Trustworthy Machine Learning Research,
+							in submission.
+                            </td>
+                        </tr>
+                        <tr data-tags='["trustml"]'><td>2021</td>
+                            <td><b>S. Majumdar</b>.
+							<a href="docs/bigdata_book_chapter.pdf" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Fairness, Explainability, Privacy, and Robustness for Trustworthy Algorithmic Decision Making</a>,
+							In Big Data Analytics in Chemoinformatics and Bioinformatics, published by Elsevier (book chapter, in press).
+                            </td>
+                        </tr>
+						<tr data-tags='["pubh"]'><td>2021</td>
+							<td>C. Last, P. Pramanik, N. Saini, A.S. Majety, D.-H. Kim, M.-G. Herranz, <b>S. Majumdar</b>. 
+							<a href="docs/chi21c-sub1352-cam-i43.pdf" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Towards An Open Global Air Quality Monitoring Platform to Assess Children's Exposure to Air Pollutants in the Light of COVID-19 Lockdowns</a>,
+							CHI 2021 Late Breaking Work.
+                            </td>
+						</tr>
+						<tr data-tags='["trustml"]'><td>2021</td>
+							<td>C. Flynn*, <b>S. Majumdar</b>*, R. Mitra*. 
+							<a href="https://arxiv.org/abs/2101.01703" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Evaluating Fairness in the Presence of Spatial Autocorrelation</a>, SDSS 2021.
+                            </td>
+						</tr>
+						<tr data-tags='["trustml"]'><td>2020</td>
+							<td>V.A.E. Farias, F.T. Brito, C. Flynn, J.C. Machado, <b>S. Majumdar</b>, D. Srivastava. 
+							<a href="https://arxiv.org/abs/2012.04117" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Local Dampening: Differential Privacy for Non-numeric Queries via Local Sensitivity</a>, 
+							Proceedings of the VLDB Endowment, 14(4), 521-533.
+                            </td>
+						</tr>
+						<tr data-tags='["statml"]'><td>2020</td>
+							<td>R.M. Rustamov, <b>S. Majumdar</b>. 
+							<a href="https://arxiv.org/abs/2010.15285" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Intrinsic Sliced Wasserstein Distances for Comparing Collections of Probability Distributions on Manifolds and Graphs</a>, arXiv:2010.15285.
+                            </td>
+						</tr>
+						<tr data-tags='["trustml"]'><td>2020</td>
+							<td>E. Dodwell*, C. Flynn*, B. Krishnamurthy*, <b>S. Majumdar</b>*, R. Mitra*. 
+							<a href="https://arxiv.org/abs/2006.06082" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Towards Integrating Fairness Transparently in Industrial Applications</a>, arXiv:2006.06082.
+                            </td>
+						</tr>
+						<tr data-tags='["qsar"]'><td>2020</td>
+							<td>S.P. Fookolaee, S. Karkhah, M. Saadi, <b>S. Majumdar</b>, A. Karkhah. 
+							<a href="https://www.ingentaconnect.com/contentone/ben/cad/2020/00000016/00000005/art00011" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Novel computational approaches to developing potential STAT4 silencing siRNAs for immunomodulation of atherosclerosis</a>,
+							Current Computer-Aided Drug Design 16 (5), 599-604.
+                            </td>
+						</tr>
+						<tr data-tags='["qsar","pubh"]'><td>2020</td>
+							<td>S.C. Basak, <b>S. Majumdar</b>, M. Vracko, A. Nandy, A. Bhattacharjee. 
+							<a href="https://www.ingentaconnect.com/contentone/ben/cad/2020/00000016/00000004/art00002" style="text-decoration:underline;color:#145A8C" target="_blank">
+							A Generic Computer-Assisted Four-Pronged Approach for the Management of Emerging Global Pathogens: Some Comments on COVID-19</a>,
+							Current Computer-Aided Drug Design 16 (4), 351-353.
+                            </td>
+						</tr>
+						<tr data-tags='["statml","trustml"]'><td>2020</td>
+							<td>A. Ghosh, <b>S. Majumdar</b>. 
+							<a href="https://ieeexplore.ieee.org/abstract/document/9153023/" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Ultrahigh-dimensional Robust and Efficient Sparse Regression using Non-Concave Penalized Density Power Divergence</a>,
+							IEEE Transactions on Information Theory 66 (12), 7812-7827.
+                            </td>
+						</tr>
+						<tr data-tags='["qsar","pubh"]'><td>2019</td>
+							<td>S.C. Basak, <b>S. Majumdar</b>, A. Nandy, P. Roy, T. Dutta, M. Vracko, A.K. Bhattacharjee. 
+							<a href="https://www.mdpi.com/1424-8247/12/4/157" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Computer-Assisted and Data Driven Approaches for Surveillance, Drug Discovery, and Vaccine Design for the Zika Virus</a>,
+							Pharmaceuticals 12 (4), 157.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2019</td>
+							<td><b>S. Majumdar</b>, S.C. Basak, C.N. Lungu, M.V. Diudea, G.D. Grunwald. 
+							<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/minf.201800164" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Finding Needles in a Haystack: Determining Key Molecular Descriptors Associated with the Blood‐brain Barrier Entry of Chemical Compounds Using Machine Learning</a>,
+							Molecular Informatics 38 (8-9), 1800164.
+						</tr>
+						<tr data-tags='["pubh"]'><td>2019</td>
+							<td>T. Biswas, T.K. Sabui, R. Mondal, <b>S. Majumdar</b>, S. Misra. 
+							<a href="https://www.gastrojournal.org/article/S0016-5085(19)37591-2/abstract" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Transpyloric Feed in Gastroesophageal Reflux Assocciated Apnea in Premature Infants: A Prospective Study</a>,
+							Gastroenterology 156 (6), S-308.
+						</tr>
+						<tr data-tags='["pubh"]'><td>2019</td>
+							<td>11 authors. 
+							<a href="https://www.sciencedirect.com/science/article/pii/S1755436518301531" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Confronting data sparsity to identify potential sources of Zika virus spillover infection among primates</a>,
+							Epidemics 27, 59-65.
+						</tr>
+						<tr data-tags='["qsar","pubh"]'><td>2019</td>
+							<td><b>S. Majumdar</b>. 
+							In Zika Virus Surveillance, Vaccinology, and Anti-Zika Drug Discovery: Computer-Assisted Strategies to Combat the Menace,
+							published by Nova Science Publishers, pp 129-152 (book chapter).
+						</tr>
+						<tr data-tags='["statml"]'><td>2019</td>
+							<td><b>S. Majumdar</b>, S. Chatterjee. 
+							<a href="https://arxiv.org/abs/1905.02700" style="text-decoration:underline;color:#145A8C" target="_blank">
+							On Weighted Multivariate Sign Functions</a>,
+							arXiv:1905.02700.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2018</td>
+							<td><b>S. Majumdar</b>, S.C. Basak, C.N. Lungu, M.V. Diudea, G.D. Grunwald. 
+							<a href="https://www.tandfonline.com/doi/abs/10.1080/1062936X.2018.1496475" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Mathematical structural descriptors and mutagenicity assessment: a study with congeneric and diverse datasets</a>,
+							SAR and QSAR in Environmental Research 29 (8), 579-590.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2018</td>
+							<td><b>S. Majumdar</b>, S.C. Basak. 
+							<a href="https://www.ingentaconnect.com/contentone/ben/cad/2018/00000014/00000004/art00003" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Beware of external validation!-A Comparative Study of Several Validation Techniques used in QSAR Modelling</a>,
+							Current Computer-Aided Drug Design 14 (4), 284-291.
+						</tr>
+						<tr data-tags='["statml"]'><td>2018</td>
+							<td><b>S. Majumdar</b>, G. Michailidis. 
+							<a href="https://arxiv.org/abs/1803.03348" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Joint Estimation and Inference for Data Integration Problems based on Multiple Multi-layered Gaussian Graphical Models</a>,
+							arXiv:1803.03348.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2018</td>
+							<td><b>S. Majumdar</b>, S.C. Basak. 
+							<a href="https://www.ingentaconnect.com/content/ben/cad/2018/00000014/00000001/art00004" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Editorial: Beware of Naïve q2, use True q2: Some Comments on QSAR Model Building and Cross Validation</a>,
+							Current Computer-Aided Drug Design 14 (1), 5-6.
+						</tr>
+						<tr data-tags='["oth"]'><td>2018</td>
+							<td><b>S. Majumdar</b>, S. Basu, M. McGue, S. Chatterjee. 
+							<a href="https://arxiv.org/abs/1802.01141" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Simultaneous Selection of Multiple Important Single Nucleotide Polymorphisms in Familial Genome Wide Association Studies Data</a>,
+							arXiv:1802.01141.
+						</tr>
+						<tr data-tags='["statml"]'><td>2018</td>
+							<td><b>S. Majumdar</b>, S. Chatterjee. 
+							<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sta4.174" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Non-convex penalized multitask regression using data depth-based penalties</a>, Stat 7, e174.
+						</tr>
+						<tr data-tags='["statml"]'><td>2017</td>
+							<td><b>S. Majumdar</b>, S. Chatterjee. 
+							<a href="https://arxiv.org/abs/1706.02429" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Fast and General Best Subset Selection using Data Depth and Resampling</a>, arXiv:1706.02429.
+						</tr>
+						<tr data-tags='["pubh"]'><td>2017</td>
+							<td>T. Biswas, <b>S. Majumdar</b>. 
+							<a href="https://www.indianpediatrics.net/jan2017/65-66.pdf" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Statistical Methods: Need for a Rethink</a>, Indian Pediatrics 54 (1), 65.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2016</td>
+							<td><b>S. Majumdar</b>, S.C. Basak. 
+							<a href="https://www.ingentaconnect.com/content/ben/cad/2016/00000012/00000004/art00009" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Exploring intrinsic dimensionality of chemical spaces for robust QSAR model development: A comparison of several statistical approaches</a>,
+							Current Computer-Aided Drug Design 12 (4), 294-301.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2016</td>
+							<td><b>S. Majumdar</b>, S.C. Basak. 
+							<a href="https://www.ingentaconnect.com/content/ben/cad/2016/00000012/00000004/art00009" style="text-decoration:underline;color:#145A8C" target="_blank">
+							EDITORIAL: Chemodescriptor Based QSARs of Structurally Homogeneous Versus Heterogeneous Chemical Data Sets: Some Comments on the Congenericity Principle
+							vis-à-vis Diversity Begets Diversity Principle</a>, Current Computer-Aided Drug Design 12 (4), 84-86.
+						</tr>
+						<tr data-tags='["oth"]'><td>2015</td>
+							<td><b>S. Majumdar</b>, L.R. Dietz, S. Chatterjee. 
+							<a href="https://www2.cisl.ucar.edu/sites/default/files/9-%20Majumdar.pdf" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Identifying Driving Factors Behind Indian Monsoon Precipitation using Model Selection based on Data Depth</a>,
+							Proceedings of the Fifth International Workshop on Climate Informatics: CI 2015.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2015</td>
+							<td>S.C. Basak, <b>S. Majumdar</b>. 
+							<a href="https://www.ingentaconnect.com/content/ben/cad/2015/00000011/00000002/art00005" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Prediction of Mutagenicity of Chemicals from Their Calculated Molecular Descriptors: A Case Study with Structurally Homogeneous versus Diverse Datasets</a>,
+							Current Computer-Aided Drug Design 11 (2), 117-123.
+						</tr>
+						<tr data-tags='["pubh"]'><td>2015</td>
+							<td>10 authors. 
+							<a href="https://dl.acm.org/doi/abs/10.1145/2783258.2788629" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning</a>, KDD 2015.
+						</tr>
+						<tr data-tags='["statml"]'><td>2015</td>
+							<td>U.K. Mukherjee, <b>S. Majumdar</b>, S. Chatterjee. 
+							<a href="https://link.springer.com/chapter/10.1007/978-3-319-20910-4_9" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Fast and robust supervised learning in high dimensions using the geometry of the data</a>, ICDM 2015.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2015</td>
+							<td>S.C. Basak, <b>S. Majumdar</b>. 
+							<a href="https://www.ingentaconnect.com/content/ben/cad/2015/00000011/00000001/art00002" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Editorial: The Importance of Rigorous Statistical Practice in the Current Landscape of QSAR Modelling</a>,
+							Current Computer-Aided Drug Design 11 (1), 2-4.
+						</tr>
+						<tr data-tags='["qsar"]'><td>2015</td>
+							<td>S.C. Basak, <b>S. Majumdar</b>. 
+							<a href="https://www.sciencedirect.com/science/article/pii/B9781681081984500114" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Current landscape of hierarchical QSAR modeling and its applications: Some comments on the importance of mathematical descriptors as well as
+							rigorous statistical methods of model building and validation</a>,
+							In Advances in mathematical chemistry and applications, published by Bentham Science Publishers, pp 251-281 (book chapter).
+						</tr>
+						<tr data-tags='["qsar"]'><td>2013</td>
+							<td><b>S. Majumdar</b>, S.C. Basak, G.D.Grunwald. 
+							<a href="https://www.ingentaconnect.com/content/ben/cad/2013/00000009/00000004/art00003" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Adapting Interrelated Two-Way Clustering Method for Quantitative Structure-Activity Relationship (QSAR) Modeling of Mutagenicity/Non-Mutagenicity of a Diverse Set of Chemicals</a>,
+							Current Computer-Aided Drug Design 9 (4), 463-471.
+						</tr>
+						</tbody>
                   </table>
               </div>
           </section>
           <hr style="display:inline-block; width:100%;">
       </div>
+	  
+	<div  id="news" class="wrapper">
+        <p style="text-align:left">
+		© Subhabrata Majumdar 2021. 
+		</p>
+	</div>
+
 
       <script src="javascripts/scale.fix.js"></script>
       <script>function selectField(d) {

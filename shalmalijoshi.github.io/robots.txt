@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://shalmalijoshi.github.io/sitemap.txt
