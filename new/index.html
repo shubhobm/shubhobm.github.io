@@ -26,44 +26,64 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<!-- Navigation -->
-    <nav class="navbar" style="background-color: black; box-shadow:3px 3px 3px rgba(0, 0, 0, 0.5)">
-      <!--div class="container"-->
-        <ul class="nav navbar-nav ml-auto">
-          <li><a href="index.html" style="color: white"><h3><b>Home</b></h3></a></li>
-          <li><a href="publications.html" style="color: white"><h3><b>Publications</b></h3></a></li>
-          <li><a href="professionalactivities.html" style="color: white"><h3><b>Activities</b></h3></a></li>
-        </ul>
-       <!--/div-->
-    </nav>
+	<!-- Navigation
+    <nav class="navbar  navbar-expand-sm" style="background-color: black; box-shadow:3px 3px 3px rgba(0, 0, 0, 0.5)">
+		<div class="container">
+			<ul class="nav navbar-nav ml-auto">
+			  <li><a href="index.html" style="color: white"><h3><b>Home</b></h3></a></li>
+			  <li><a href="publications.html" style="color: white"><h3><b>Publications</b></h3></a></li>
+			  <li><a href="professionalactivities.html" style="color: white"><h3><b>Activities</b></h3></a></li>
+			</ul>
+       </div>
+    </nav>-->
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark"  style="box-shadow:3px 3px 3px rgba(0, 0, 0, 0.5)">
+		<!-- Brand -->
+		<div class="container" style="width:1200px">
+		<a class="navbar-brand" href="#" style="text-decoration:none">Subho Majumdar</a>
+
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" style="text-decoration:none" href="index.html">Home</a></li>
+				<li class="nav-item"><a class="nav-link" style="text-decoration:none" href="publications.html">Publications</a></li>
+				<li class="nav-item"><a class="nav-link" style="text-decoration:none" href="professionalactivities.html">Activities</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
 </head>
 
 <body style="background-image: linear-gradient(to right, #dcdcdc 80%, grey)">
-      <div class="wrapper">
-        <br>
-        <div class="wrapper" style="width:100%">
-                  
-            <p style="text-decoration:none;float:left;width:300px">
-			</p>
+	<br>
+    <div class="container" style="width:1200px">
+        <div class="container" style="width:100%">
 			<div class="basr-social-share social" style="text-decoration:none;float:left;width:300px">
-			<a href="index.html">
-                <img alt="Profile Picture" src="images/subho-majumdar-pic.jpg" style="max-width:200px;max-height:200px;width:auto;height:auto;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);margin-bottom:20px" class="img-circle img-responsive"/>
-            </a>
-			<a href="mailto:subho@research.att.com" class="envelope"><i class="fa fa-envelope fa-2x" style="color:#00a8e0"></i></a>&nbsp; subho@research.att.com
-			<br>
-			<a class="github" href="https://github.com/shubhobm" target="_blank" style="color:#00a8e0"><i class="fa fa-github fa-2x"></i></a>&nbsp; shubhobm
-			<br>
-			<a class="twitter" href="https://twitter.com/sbmisi" target="_blank" style="color:#00a8e0"><i class="fa fa-twitter fa-2x"></i></a>&nbsp; sbmisi
-			<br>
-			<a class="linkedin" href="https://www.linkedin.com/in/shubhobm/" target="_blank" style="color:#00a8e0"><i class="fa fa-linkedin fa-2x"></i></a>&nbsp; shubhobm
+				<div id="profile">
+					<div class="portrait" style="background-image: url('images/subho-majumdar-pic.jpg');"></div>
+					<meta itemprop="image" content="images/subho-majumdar-pic.jpg">
+					
+					<div class="portrait-title">
+						<h2>Subho Majumdar, PhD</h2>
+						<h3>Senior Inventive Scientist</h3>
+						<h4>AT&T Data Science and AI Research</h4>
+					</div>
+					<a href="mailto:subho@research.att.com" class="envelope"><i class="fa fa-envelope fa-2x" style="color:#00a8e0"></i></a>&nbsp; subho@research.att.com
+					<br>
+					<a class="github" href="https://github.com/shubhobm" target="_blank" style="color:#00a8e0"><i class="fa fa-github fa-2x"></i></a>&nbsp;&nbsp;
+					<a class="twitter" href="https://twitter.com/sbmisi" target="_blank" style="color:#00a8e0"><i class="fa fa-twitter fa-2x"></i></a>&nbsp;&nbsp;
+					<a class="linkedin" href="https://www.linkedin.com/in/shubhobm/" target="_blank" style="color:#00a8e0"><i class="fa fa-linkedin fa-2x"></i></a>
+				</div>
 			</div>
-			
 			<aside>
-                <h1>Subho Majumdar, PhD</h1>
+                <!--<h1>Subho Majumdar, PhD</h1>
                 Senior Inventive Scientist<br>
-				AT&T Data Science and AI Research<br>
-				
-                <p style="padding:10px 0 0px;max-width:1050px;text-align:left">
+				AT&T Data Science and AI Research<br>-->
+                <p style="padding:0px 0 0px;max-width:1050px;text-align:left">
 				<h3>About Me</h3>
 				
 				I am a senior scientist in the Data Science and AI Research team of AT&T Chief Data Office (erstwhile part of AT&T Bell Labs).
@@ -98,8 +118,8 @@
 					</div>
 					<div class="col-lg-7">
 						<ul>
-						<li><i class="icofont-rounded-right"></i>Natural Language Processing</li>
 						<li><i class="icofont-rounded-right"></i>Statistical Machine Learning</li>
+						<li><i class="icofont-rounded-right"></i>Natural Language Processing</li>
 						<li><i class="icofont-rounded-right"></i>Computational chemistry</li>
 						<li><i class="icofont-rounded-right"></i>Applied statistics</li>
 						</ul>
@@ -109,7 +129,7 @@
 
                 <p style="padding:10px 0 10px;max-width:960px;margin-top:10px;margin-bottom:10px">
                     <span style="border:2px; border-style:solid; border-color:black; border-radius: 7px; padding:6px; text-align:center">
-                        <a style="color:#000;text-decoration:none;font-size:16px;"  href="misc/resume_new.pdf" target="_blank">
+                        <a style="color:#000;text-decoration:none;font-size:16px;"  href="misc/resume_new2.pdf" target="_blank">
                             <i class="fas fa-download"></i>&nbsp;   CV
                         </a>
                     </span>&nbsp;
@@ -125,12 +145,12 @@
                 </p>
 
             </aside>
-          </div>
-          <hr style="display:inline-block; width:100%;">
+        </div>
+        <hr style="display:inline-block; width:100%;">
     </div>
 
 
-    <div  id="news" class="wrapper">
+    <div  id="news" class="container">
         <section style="display:block;width:100%">
             <h2 style="display:inline-block"> News </h2>
             <ul>
@@ -183,7 +203,7 @@
 				<li>
 				<b>Mar 2019</b>:
 				Review paper on data-driven strategies for prevention of Zika published in a
-				<a href="https://novapublishers.com/shop/zika-virus-basic-biology-symptoms-transmission-immunology-and-anti-zika-drug-discovery/">
+				<a href="https://novapublishers.com/shop/zika-virus-basic-biology-symptoms-transmission-immunology-and-anti-zika-drug-discovery/" target="_blank">
 				book</a> on the Zika virus.
 				</li>
 				<!---<li>
@@ -219,7 +239,7 @@
         <hr style="display:inline-block; width:100%;">
     </div>
 
-    <div  id="news" class="wrapper">
+    <div  id="news" class="container">
         <p style="text-align:left">
 		© Subhabrata Majumdar 2021. 
 		All content, including images and video, contributed by me is mine and has not been approved by AT&T.<br> 
