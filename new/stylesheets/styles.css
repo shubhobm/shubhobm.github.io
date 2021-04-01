@@ -226,6 +226,15 @@ select {
     text-decoration: None
 }
 
+body {
+	padding: 0rem;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	min-height: 100%;
+	text-rendering: optimizeLegibility;
+}
+
 .wrapper {
   width:90%;
   margin:0 auto;
