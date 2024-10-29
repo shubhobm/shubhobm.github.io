@@ -70,11 +70,10 @@
               <span style="display:inline-block;float:right;text-align:right">
                   <select id="dropdown" onchange="selectField(this)" autocomplete="off">
                       <option value="all"  selected="selected">---Filter by  topic---</option>
-					  <option value="aisec">AI safety and security</option>
-                      <option value="trustml">Trustworthy AI/ML</option>
                       <option value="statml">Statistics/ML</option>
+                      <option value="trustml">Trustworthy ML</option>
                       <option value="qsar">Computational chemistry</option>
-                      <!-- <option value="pubh">Public health</option> -->
+                      <option value="pubh">Public health</option>
                       <option value="oth">Other applied</option>
                   </select>
               </span>
@@ -90,91 +89,7 @@
 
                       <tbody id="pub">
                       <!--tbody-->
-					<tr data-tags='["aisec","trustml"]'><td>2024</td>
-						<td>D. Rosati, J. Wehner, K. Williams, L. Bartoszcze, D. Atanasov, R. Gonzales, <b>S. Majumdar</b>,
-							C. Maple, H. Sajjad, F. Rudzicz. 
-						<a href="https://arxiv.org/abs/2405.14577" style="text-decoration:underline;color:#145A8C" target="_blank">
-							Representation noising effectively prevents harmful fine-tuning on LLMs</a>, NeurIPS 2024.
-					</tr>
-					<tr data-tags='["aisec","trustml"]'><td>2024</td>
-						<td>M.A. Ayub, <b>S. Majumdar</b>. 
-						Embedding-based classifiers can detect prompt injection attacks, CAMLIS 2024.
-					</tr>
-					<tr data-tags='["trustml"]'><td>2024</td>
-						<td>H. Raj, V. Gupta, D. Rosati, <b>S. Majumdar</b>. 
-							Improving Consistency in Large Language Models through Chain of Guidance, preprint.
-					</tr>
-					<tr data-tags='["aisec","trustml"]'><td>2024</td>
-						<td>D. Rosati, G. Edkins, H. Raj, D. Atanasov, <b>S. Majumdar</b>, J. Rajendran, F. Rudzicz, H. Sajjad. 
-						<a href="https://arxiv.org/abs/2409.12914" style="text-decoration:underline;color:#145A8C" target="_blank">
-							Defending against Reverse Preference Attacks is Difficult</a>, arXiv:2409.12914.
-					</tr>
-					<tr data-tags='["aisec","trustml"]'><td>2024</td>
-						<td>L. Derczynski, E. Galinkin, J. Martin, <b>S. Majumdar</b>, N Inie.
-						<a href="https://arxiv.org/abs/2406.11036" style="text-decoration:underline;color:#145A8C" target="_blank">
-						garak: A Framework for Security Probing Large Language Models</a>, arXiv:2406.11036.
-					</tr>
-					<tr data-tags='["aisec","trustml"]'><td>2024</td>
-						<td><b>S. Majumdar</b>, T. Vogelslang.
-						Towards Safe LLMs Integration.
-						In Large Language Models in Cybersecurity, published by Springer, pp 243-247 (book chapter).
-					</tr>
-					<tr data-tags='["aisec","trustml"]'><td>2024</td>
-						<td><b>S. Majumdar</b>.
-							Standards for LLM Security.
-						In Large Language Models in Cybersecurity, published by Springer, pp 225-231 (book chapter).
-					</tr>
-					<tr data-tags='["statml"]'><td>2023</td>
-						<td>R.M. Rustamov, <b>S. Majumdar</b>. 
-						<a href="https://arxiv.org/abs/2010.15285" style="text-decoration:underline;color:#145A8C" target="_blank">
-						Intrinsic Sliced Wasserstein Distances for Comparing Collections of Probability Distributions on Manifolds and Graphs</a>,
-						ICML 2023.
-						</td>
-					</tr>
-					<tr data-tags='["oth"]'><td>2023</td>
-						<td><b>S. Majumdar</b>, S. Basu, M. McGue, S. Chatterjee. 
-						<a href="https://arxiv.org/abs/1802.01141" style="text-decoration:underline;color:#145A8C" target="_blank">
-						Simultaneous Selection of Multiple Important Single Nucleotide Polymorphisms in Familial Genome Wide Association Studies Data</a>,
-						Scientific reports 13 (1), 8476.
-					</tr>
-					<tr data-tags='["trustml"]'><td>2023</td>
-						<td>F.T. Brito, V.A.E. Farias, C. Flynn, J.C. Machado, <b>S. Majumdar</b>, D. Srivastava. 
-						<a href="https://dl.acm.org/doi/abs/10.1145/3589299" style="text-decoration:underline;color:#145A8C" target="_blank">
-						Global and local differentially private release of count-weighted graphs</a>, 
-						SIGMOD 2023.
-						</td>
-					</tr>
-					<tr data-tags='["trustml"]'><td>2023</td>
-						<td>Y. Pruksachatkun, M. McAteer, <b>S. Majumdar</b>.
-						<a href="https://www.oreilly.com/library/view/practicing-trustworthy-machine/9781098120269/" style="text-decoration:underline;color:#145A8C" target="_blank">
-							Practicing Trustworthy Machine Learning</a>, published by O'Reilly Media (book).
-						</td>
-					</tr>
-					<tr data-tags='["trustml"]'><td>2023</td>
-						<td>V.A.E. Farias, F.T. Brito, C. Flynn, J.C. Machado, <b>S. Majumdar</b>, D. Srivastava. 
-						<a href="https://arxiv.org/abs/2012.04117" style="text-decoration:underline;color:#145A8C" target="_blank">
-						Local Dampening: Differential Privacy for Non-numeric Queries via Local Sensitivity</a>, 
-						The VLDB Journal, 32, 1191–1214.
-						</td>
-					</tr>
-					<tr data-tags='["trustml"]'><td>2022</td>
-						<td>C. Flynn, A. Guha, <b>S. Majumdar</b>, D. Srivastava, Z. Zhou.
-						<a href="https://arxiv.org/abs/2211.04568" style="text-decoration:underline;color:#145A8C" target="_blank">
-							Towards Algorithmic Fairness in Space-Time: Filling in Black Holes</a>,
-							NeurIPS 2022 Workshop on Trustworthy and Socially Responsible Machine Learning.
-					</tr>
-					<tr data-tags='["trustml"]'><td>2022</td>
-						<td>H. Raj, D. Rosati, <b>S. Majumdar</b>. 
-						<a href="https://arxiv.org/abs/2211.05853" style="text-decoration:underline;color:#145A8C" target="_blank">
-							Measuring Reliability of Large Language Models through Semantic Consistency</a>,
-							NeurIPS 2022 ML Safety Workshop (best paper award).
-					</tr>
-					<tr data-tags='["aisec","trustml"]'><td>2022</td>
-						<td>G. Subramaniam, <b>S. Majumdar</b>. 
-						<a href="https://arxiv.org/abs/2211.13419" style="text-decoration:underline;color:#145A8C" target="_blank">
-							Network Security Modelling with Distributional Data</a>, CAMLIS 2022.
-					</tr>
-					<tr data-tags='["statml"]'><td>2022</td>
+						<tr data-tags='["statml"]'><td>2022</td>
 							<td><b>S. Majumdar</b>, S. Chatterjee.
 							<a href="https://arxiv.org/abs/2206.05391" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Feature Selection using e-values</a>, ICML 2022.</td>
@@ -185,37 +100,43 @@
 							On weighted multivariate sign functions</a>,
 							Journal of Multivariate Analysis 191, 105013.</td>
 						</tr>
+					    <tr data-tags='["trustml"]'><td>2022</td>
+                            <td>Y. Pruksachatkun, M. McAteer, <b>S. Majumdar</b>.
+							<a href="https://www.oreilly.com/library/view/practicing-trustworthy-machine/9781098120269/" style="text-decoration:underline;color:#145A8C" target="_blank">
+								Practicing Trustworthy Machine Learning</a>, published by O'Reilly Media (book).
+                            </td>
+                        </tr>
                         <tr data-tags='["trustml"]'><td>2022</td>
                             <td><b>S. Majumdar</b>.
 							<a href="docs/bigdata_book_chapter.pdf" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Fairness, Explainability, Privacy, and Robustness for Trustworthy Algorithmic Decision Making</a>,
-							In Big Data Analytics in Chemoinformatics and Bioinformatics, published by Elsevier (book chapter).
+							In Big Data Analytics in Chemoinformatics and Bioinformatics, published by Elsevier (book chapter, in press).
                             </td>
                         </tr>
+						<tr data-tags='["trustml"]'><td>2022</td>
+							<td><b>S. Majumdar</b>, C. Flynn, R. Mitra. 
+							<a href="https://proceedings.mlr.press/v171/majumdar22a.html" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Detecting Bias in the Presence of Spatial Autocorrelation</a>, NeurIPS 2021 AFCR Workshop.
+                            </td>
+						</tr>
 						<tr data-tags='["statml"]'><td>2022</td>
 							<td><b>S. Majumdar</b>, G. Michailidis. 
 							<a href="https://arxiv.org/abs/1803.03348" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Joint Estimation and Inference for Data Integration Problems based on Multiple Multi-layered Gaussian Graphical Models</a>,
 							Journal of Machine Learning Research 23(1), 1-53.
 						</tr>
-						<tr data-tags='["trustml"]'><td>2021</td>
-							<td><b>S. Majumdar</b>, C. Flynn, R. Mitra. 
-							<a href="https://proceedings.mlr.press/v171/majumdar22a.html" style="text-decoration:underline;color:#145A8C" target="_blank">
-							Detecting Bias in the Presence of Spatial Autocorrelation</a>, NeurIPS 2021 AFCR Workshop.
-                            </td>
-						</tr>
-						<!-- <tr data-tags='["oth"]'><td>2021</td>
+						<tr data-tags='["oth"]'><td>2021</td>
 							<td><b>S. Majumdar</b>, D. Paul, E. Zavesky. 
 							<a href="https://arxiv.org/abs/2108.04187" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Scaling New Peaks: A Viewership-centric Approach to Automated Content Curation</a>, arXiv:2108.04187.
                             </td>
-						</tr> -->
-						<!-- <tr data-tags='["statml"]'><td>2021</td>
+						</tr>
+						<tr data-tags='["statml"]'><td>2021</td>
 							<td><b>S. Majumdar</b>, S. Chatterjee. 
 							<a href="https://arxiv.org/abs/2107.01103" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Generalized Multivariate Signs for Nonparametric Hypothesis Testing in High Dimensions</a>, arXiv:2107.01103.
                             </td>
-						</tr> -->
+						</tr>
                         <tr data-tags='["trustml"]'><td>2021</td>
                             <td>N. Derzsy*, <b>S. Majumdar</b>*, R. Malik*.
 							<a href="https://arxiv.org/abs/2105.06591" style="text-decoration:underline;color:#145A8C" target="_blank">
@@ -223,27 +144,40 @@
 							CompleNet 2021.
                             </td>
                         </tr>
-						<tr data-tags='["oth"]'><td>2021</td>
+						<tr data-tags='["pubh"]'><td>2021</td>
 							<td>C. Last, P. Pramanik, N. Saini, A.S. Majety, D.-H. Kim, M.-G. Herranz, <b>S. Majumdar</b>. 
 							<a href="https://arxiv.org/abs/2103.12505" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Towards An Open Global Air Quality Monitoring Platform to Assess Children's Exposure to Air Pollutants in the Light of COVID-19 Lockdowns</a>,
 							CHI 2021 Late Breaking Work.
                             </td>
 						</tr>
-						<!-- <tr data-tags='["trustml"]'><td>2020</td>
+						<tr data-tags='["trustml"]'><td>2020</td>
+							<td>V.A.E. Farias, F.T. Brito, C. Flynn, J.C. Machado, <b>S. Majumdar</b>, D. Srivastava. 
+							<a href="https://arxiv.org/abs/2012.04117" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Local Dampening: Differential Privacy for Non-numeric Queries via Local Sensitivity</a>, 
+							Proceedings of the VLDB Endowment, 14(4), 521-533.
+                            </td>
+						<tr data-tags='["statml"]'><td>2020</td>
+							<td>R.M. Rustamov, <b>S. Majumdar</b>. 
+							<a href="https://arxiv.org/abs/2010.15285" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Intrinsic Sliced Wasserstein Distances for Comparing Collections of Probability Distributions on Manifolds and Graphs</a>, arXiv:2010.15285.
+                            </td>
+						</tr>
+						</tr>
+						<tr data-tags='["trustml"]'><td>2020</td>
 							<td>E. Dodwell*, C. Flynn*, B. Krishnamurthy*, <b>S. Majumdar</b>*, R. Mitra*. 
 							<a href="https://arxiv.org/abs/2006.06082" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Towards Integrating Fairness Transparently in Industrial Applications</a>, arXiv:2006.06082.
                             </td>
-						</tr> -->
-						<!-- <tr data-tags='["qsar"]'><td>2020</td>
+						</tr>
+						<tr data-tags='["qsar"]'><td>2020</td>
 							<td>S.P. Fookolaee, S. Karkhah, M. Saadi, <b>S. Majumdar</b>, A. Karkhah. 
 							<a href="https://www.ingentaconnect.com/contentone/ben/cad/2020/00000016/00000005/art00011" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Novel computational approaches to developing potential STAT4 silencing siRNAs for immunomodulation of atherosclerosis</a>,
 							Current Computer-Aided Drug Design 16 (5), 599-604.
                             </td>
-						</tr> -->
-						<tr data-tags='["qsar"]'><td>2020</td>
+						</tr>
+						<tr data-tags='["qsar","pubh"]'><td>2020</td>
 							<td>S.C. Basak, <b>S. Majumdar</b>, M. Vracko, A. Nandy, A. Bhattacharjee. 
 							<a href="https://www.ingentaconnect.com/contentone/ben/cad/2020/00000016/00000004/art00002" style="text-decoration:underline;color:#145A8C" target="_blank">
 							A Generic Computer-Assisted Four-Pronged Approach for the Management of Emerging Global Pathogens: Some Comments on COVID-19</a>,
@@ -257,7 +191,7 @@
 							IEEE Transactions on Information Theory 66 (12), 7812-7827.
                             </td>
 						</tr>
-						<tr data-tags='["qsar"]'><td>2019</td>
+						<tr data-tags='["qsar","pubh"]'><td>2019</td>
 							<td>S.C. Basak, <b>S. Majumdar</b>, A. Nandy, P. Roy, T. Dutta, M. Vracko, A.K. Bhattacharjee. 
 							<a href="https://www.mdpi.com/1424-8247/12/4/157" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Computer-Assisted and Data Driven Approaches for Surveillance, Drug Discovery, and Vaccine Design for the Zika Virus</a>,
@@ -269,19 +203,19 @@
 							Finding Needles in a Haystack: Determining Key Molecular Descriptors Associated with the Blood‐brain Barrier Entry of Chemical Compounds Using Machine Learning</a>,
 							Molecular Informatics 38 (8-9), 1800164.
 						</tr>
-						<!-- <tr data-tags='["pubh"]'><td>2019</td>
+						<tr data-tags='["pubh"]'><td>2019</td>
 							<td>T. Biswas, T.K. Sabui, R. Mondal, <b>S. Majumdar</b>, S. Misra. 
 							<a href="https://www.gastrojournal.org/article/S0016-5085(19)37591-2/abstract" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Transpyloric Feed in Gastroesophageal Reflux Assocciated Apnea in Premature Infants: A Prospective Study</a>,
 							Gastroenterology 156 (6), S-308.
-						</tr> -->
-						<tr data-tags='["oth"]'><td>2019</td>
+						</tr>
+						<tr data-tags='["pubh"]'><td>2019</td>
 							<td>11 authors. 
 							<a href="https://www.sciencedirect.com/science/article/pii/S1755436518301531" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Confronting data sparsity to identify potential sources of Zika virus spillover infection among primates</a>,
 							Epidemics 27, 59-65.
 						</tr>
-						<tr data-tags='["qsar"]'><td>2019</td>
+						<tr data-tags='["qsar","pubh"]'><td>2019</td>
 							<td><b>S. Majumdar</b>. 
 							In Zika Virus Surveillance, Vaccinology, and Anti-Zika Drug Discovery: Computer-Assisted Strategies to Combat the Menace,
 							published by Nova Science Publishers, pp 129-152 (book chapter).
@@ -298,39 +232,46 @@
 							Beware of external validation!-A Comparative Study of Several Validation Techniques used in QSAR Modelling</a>,
 							Current Computer-Aided Drug Design 14 (4), 284-291.
 						</tr>
-						<!-- <tr data-tags='["qsar"]'><td>2018</td>
+						<tr data-tags='["qsar"]'><td>2018</td>
 							<td><b>S. Majumdar</b>, S.C. Basak. 
 							<a href="https://www.ingentaconnect.com/content/ben/cad/2018/00000014/00000001/art00004" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Editorial: Beware of Naïve q2, use True q2: Some Comments on QSAR Model Building and Cross Validation</a>,
 							Current Computer-Aided Drug Design 14 (1), 5-6.
-						</tr> -->
+						</tr>
+						<tr data-tags='["oth"]'><td>2018</td>
+							<td><b>S. Majumdar</b>, S. Basu, M. McGue, S. Chatterjee. 
+							<a href="https://arxiv.org/abs/1802.01141" style="text-decoration:underline;color:#145A8C" target="_blank">
+							Simultaneous Selection of Multiple Important Single Nucleotide Polymorphisms in Familial Genome Wide Association Studies Data</a>,
+							arXiv:1802.01141 (<a href="https://icml-compbio.github.io/2021/papers/WCBICML2021_paper_25.pdf" target="_blank">
+							presented</a> in ICML 2021 CompBio workshop).
+						</tr>
 						<tr data-tags='["statml"]'><td>2018</td>
 							<td><b>S. Majumdar</b>, S. Chatterjee. 
 							<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sta4.174" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Non-convex penalized multitask regression using data depth-based penalties</a>, Stat 7, e174.
 						</tr>
-						<!-- <tr data-tags='["statml"]'><td>2017</td>
+						<tr data-tags='["statml"]'><td>2017</td>
 							<td><b>S. Majumdar</b>, S. Chatterjee. 
 							<a href="https://arxiv.org/abs/1706.02429" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Fast and General Best Subset Selection using Data Depth and Resampling</a>, arXiv:1706.02429.
-						</tr> -->
-						<!-- <tr data-tags='["pubh"]'><td>2017</td>
+						</tr>
+						<tr data-tags='["pubh"]'><td>2017</td>
 							<td>T. Biswas, <b>S. Majumdar</b>. 
 							<a href="https://www.indianpediatrics.net/jan2017/65-66.pdf" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Statistical Methods: Need for a Rethink</a>, Indian Pediatrics 54 (1), 65.
-						</tr> -->
+						</tr>
 						<tr data-tags='["qsar"]'><td>2016</td>
 							<td><b>S. Majumdar</b>, S.C. Basak. 
 							<a href="https://www.ingentaconnect.com/content/ben/cad/2016/00000012/00000004/art00009" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Exploring intrinsic dimensionality of chemical spaces for robust QSAR model development: A comparison of several statistical approaches</a>,
 							Current Computer-Aided Drug Design 12 (4), 294-301.
 						</tr>
-						<!-- <tr data-tags='["qsar"]'><td>2016</td>
+						<tr data-tags='["qsar"]'><td>2016</td>
 							<td><b>S. Majumdar</b>, S.C. Basak. 
 							<a href="https://www.ingentaconnect.com/content/ben/cad/2016/00000012/00000004/art00009" style="text-decoration:underline;color:#145A8C" target="_blank">
 							EDITORIAL: Chemodescriptor Based QSARs of Structurally Homogeneous Versus Heterogeneous Chemical Data Sets: Some Comments on the Congenericity Principle
 							vis-à-vis Diversity Begets Diversity Principle</a>, Current Computer-Aided Drug Design 12 (4), 84-86.
-						</tr> -->
+						</tr>
 						<tr data-tags='["oth"]'><td>2015</td>
 							<td><b>S. Majumdar</b>, L.R. Dietz, S. Chatterjee. 
 							<a href="https://www2.cisl.ucar.edu/sites/default/files/9-%20Majumdar.pdf" style="text-decoration:underline;color:#145A8C" target="_blank">
@@ -343,7 +284,7 @@
 							Prediction of Mutagenicity of Chemicals from Their Calculated Molecular Descriptors: A Case Study with Structurally Homogeneous versus Diverse Datasets</a>,
 							Current Computer-Aided Drug Design 11 (2), 117-123.
 						</tr>
-						<tr data-tags='["oth"]'><td>2015</td>
+						<tr data-tags='["pubh"]'><td>2015</td>
 							<td>10 authors. 
 							<a href="https://dl.acm.org/doi/abs/10.1145/2783258.2788629" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning</a>, KDD 2015.
@@ -353,12 +294,12 @@
 							<a href="https://link.springer.com/chapter/10.1007/978-3-319-20910-4_9" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Fast and robust supervised learning in high dimensions using the geometry of the data</a>, ICDM 2015.
 						</tr>
-						<!-- <tr data-tags='["qsar"]'><td>2015</td>
+						<tr data-tags='["qsar"]'><td>2015</td>
 							<td>S.C. Basak, <b>S. Majumdar</b>. 
 							<a href="https://www.ingentaconnect.com/content/ben/cad/2015/00000011/00000001/art00002" style="text-decoration:underline;color:#145A8C" target="_blank">
 							Editorial: The Importance of Rigorous Statistical Practice in the Current Landscape of QSAR Modelling</a>,
 							Current Computer-Aided Drug Design 11 (1), 2-4.
-						</tr> -->
+						</tr>
 						<tr data-tags='["qsar"]'><td>2015</td>
 							<td>S.C. Basak, <b>S. Majumdar</b>. 
 							<a href="https://www.sciencedirect.com/science/article/pii/B9781681081984500114" style="text-decoration:underline;color:#145A8C" target="_blank">
@@ -378,12 +319,21 @@
           </section>
           <hr style="display:inline-block; width:100%;">
       </div>
+
+	<div>
+		<!-- <iframe width="100%", height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTMPsOFSLs6MfTLG-U-thZswl9KHo1Y9z0VZRMPHCRZzizNmK-hY4yQ_prj1hr9_8kmcJ6b5DkssFHF/pubhtml?gid=0&single=true&widget=false&chrome=false&headers=false">
+		</iframe> -->
+		<iframe width="90%", height="500" src="https://docs.google.com/document/d/e/2PACX-1vTt71abHU_YT6wOYAERY-rT-uDBkK5sRVdXUw0YzackvwdWTPo4YdLOMWD1ynpMVZj3wPjdIINDB8b2/pub?embedded=true">
+		</iframe>
+
+	</div>
 	  
 	<div  id="news" class="container container-fluid">
         <p style="text-align:left">
-		© Subhabrata Majumdar 2024. 
+		© Subhabrata Majumdar 2022. 
 		</p>
 	</div>
+<br>
       <script src="javascripts/scale.fix.js"></script>
       <script>function selectField(d) {
           var t = d.options[d.selectedIndex].value
