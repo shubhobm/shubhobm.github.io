@@ -1,0 +1,150 @@
+/* Academic Enhancement Styles - White/Brick Red Theme */
+
+/* Define theme colors */
+:root {
+  --primary-red: #b52e31;
+  --light-red: #d14649;
+  --dark-red: #8b1e21;
+  --white: #ffffff;
+  --light-gray: #f8f8f8;
+  --text-dark: #333333;
+}
+
+/* Ensure academic icons work well with different sizes */
+.ai {
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+/* Improve icon spacing and alignment */
+.profile-icons a {
+  display: inline-block;
+  margin: 0 8px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.profile-icons a:hover {
+  transform: translateY(-2px);
+  color: var(--light-red) !important;
+}
+
+/* Academic button styling with brick red theme */
+.academic-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 4px 8px 4px 0;
+  border: 2px solid var(--primary-red);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--primary-red);
+  font-weight: 500;
+  transition: all 0.3s ease;
+  background-color: var(--white);
+}
+
+.academic-button:hover {
+  background-color: var(--primary-red);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.academic-button i {
+  margin-right: 6px;
+}
+
+/* Enhanced typography for academic content */
+.research-interests ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.research-interests li {
+  padding: 4px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.research-interests li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--primary-red);
+  font-weight: bold;
+}
+
+/* Publication styling improvements */
+.publication-link,
+a[style*="text-decoration:underline;color:#145A8C"] {
+  color: var(--primary-red) !important;
+  text-decoration: underline !important;
+  transition: color 0.2s ease;
+}
+
+.publication-link:hover,
+a[style*="text-decoration:underline;color:#145A8C"]:hover {
+  color: var(--dark-red) !important;
+  text-decoration: none !important;
+}
+
+/* Academic profile enhancements */
+#profile .portrait-title h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: var(--text-dark);
+}
+
+/* Navigation hover states */
+.nav > li > a:focus, 
+.nav > li > a:hover {
+    text-decoration: underline;
+    color: var(--text-dark);
+    background-color: var(--light-gray);
+}
+
+/* Responsive icon sizing */
+@media (max-width: 768px) {
+  .profile-icons a {
+    margin: 0 4px;
+  }
+  
+  .fa-2x {
+    font-size: 1.8em;
+  }
+  
+  .academic-button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}
+
+/* Scholar icon specific styling to ensure proper rendering */
+.ai-google-scholar {
+  font-family: 'Academicons', sans-serif !important;
+}
+
+/* Enhanced focus states for accessibility */
+.academic-button:focus,
+.profile-icons a:focus {
+  outline: 2px solid var(--primary-red);
+  outline-offset: 2px;
+}
+
+/* White background with subtle shadows */
+.wrapper {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(181, 46, 49, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Portrait shadow update */
+#profile .portrait {
+  box-shadow: 5px 5px 15px rgba(181, 46, 49, 0.2);
+}
+
+/* Table hover effects in white/red theme */
+.table-hover > tbody > tr:hover {
+  background-color: rgba(181, 46, 49, 0.05);
+}

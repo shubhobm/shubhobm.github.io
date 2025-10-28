@@ -116,36 +116,30 @@
 					</tr>
 					<tr data-tags='["trustml"]'><td>2025</td>
 						<td>J. Novikova, C. Anderson, B. Blili-Hamelin, D. Rosati, <b>S. Majumdar</b>. 
-						<a href="https://arxiv.org/abs/2505.00268" class="publication-link" target="_blank">
 							Consistency in Language Models: Current Landscape, Challenges, and Future Directions</a>,
 							ICML 2025 Workshop on Reliable and Responsible Foundation Models.
 					</tr>
 					<tr data-tags='["aisec","trustml"]'><td>2025</td>
 						<td>D. Rosati, G. Edkins, H. Raj, D. Atanasov, <b>S. Majumdar</b>, J. Rajendran, F. Rudzicz, H. Sajjad. 
-						<a href="https://arxiv.org/abs/2409.12914" class="publication-link" target="_blank">
 							Evaluating Defences against Unsafe Feedback in RLHF</a>,
 							AAAI 2025 Workshop on Artificial Intelligence for Cyber Security.
 					</tr>
 					<tr data-tags='["trustml"]'><td>2025</td>
 						<td>H. Raj, V. Gupta, D. Rosati, <b>S. Majumdar</b>.
-						<a href="https://arxiv.org/abs/2502.15924" class="publication-link" target="_blank">
 							Improving Consistency in Large Language Models through Chain of Guidance</a>,
 							Transactions on Machine Learning Research.
 					</tr>
 					<tr data-tags='["aisec","trustml"]'><td>2024</td>
 						<td>D. Rosati, J. Wehner, K. Williams, L. Bartoszcze, D. Atanasov, R. Gonzales, <b>S. Majumdar</b>,
 							C. Maple, H. Sajjad, F. Rudzicz. 
-						<a href="https://arxiv.org/abs/2405.14577" class="publication-link" target="_blank">
 							Representation Noising: A Defence Mechanism Against Harmful Finetuning</a>, NeurIPS 2024.
 					</tr>
 					<tr data-tags='["aisec","trustml"]'><td>2024</td>
 						<td>M.A. Ayub, <b>S. Majumdar</b>. 
-						<a href="https://arxiv.org/abs/2410.22284" class="publication-link" target="_blank">
 							Embedding-based classifiers can detect prompt injection attacks</a>, CAMLIS 2024.
 					</tr>
 					<tr data-tags='["aisec","trustml"]'><td>2024</td>
 						<td>L. Derczynski, E. Galinkin, J. Martin, <b>S. Majumdar</b>, N Inie.
-						<a href="https://arxiv.org/abs/2406.11036" class="publication-link" target="_blank">
 						garak: A Framework for Security Probing Large Language Models</a>, arXiv:2406.11036.
 					</tr>
 					<tr data-tags='["aisec","trustml"]'><td>2024</td>
@@ -160,14 +154,12 @@
 					</tr>
 					<tr data-tags='["statml"]'><td>2023</td>
 						<td>R.M. Rustamov, <b>S. Majumdar</b>. 
-						<a href="https://arxiv.org/abs/2010.15285" class="publication-link" target="_blank">
 						Intrinsic Sliced Wasserstein Distances for Comparing Collections of Probability Distributions on Manifolds and Graphs</a>,
 						ICML 2023.
 						</td>
 					</tr>
 					<tr data-tags='["oth"]'><td>2023</td>
 						<td><b>S. Majumdar</b>, S. Basu, M. McGue, S. Chatterjee. 
-						<a href="https://arxiv.org/abs/1802.01141" class="publication-link" target="_blank">
 						Simultaneous Selection of Multiple Important Single Nucleotide Polymorphisms in Familial Genome Wide Association Studies Data</a>,
 						Scientific reports 13 (1), 8476.
 					</tr>
@@ -186,36 +178,30 @@
 					</tr>
 					<tr data-tags='["trustml"]'><td>2023</td>
 						<td>V.A.E. Farias, F.T. Brito, C. Flynn, J.C. Machado, <b>S. Majumdar</b>, D. Srivastava. 
-						<a href="https://arxiv.org/abs/2012.04117" class="publication-link" target="_blank">
 						Local Dampening: Differential Privacy for Non-numeric Queries via Local Sensitivity</a>, 
 						The VLDB Journal, 32, 1191–1214.
 						</td>
 					</tr>
 					<tr data-tags='["trustml"]'><td>2022</td>
 						<td>C. Flynn, A. Guha, <b>S. Majumdar</b>, D. Srivastava, Z. Zhou.
-						<a href="https://arxiv.org/abs/2211.04568" class="publication-link" target="_blank">
 							Towards Algorithmic Fairness in Space-Time: Filling in Black Holes</a>,
 							NeurIPS 2022 Workshop on Trustworthy and Socially Responsible Machine Learning.
 					</tr>
 					<tr data-tags='["trustml"]'><td>2022</td>
 						<td>H. Raj, D. Rosati, <b>S. Majumdar</b>. 
-						<a href="https://arxiv.org/abs/2211.05853" class="publication-link" target="_blank">
 							Measuring Reliability of Large Language Models through Semantic Consistency</a>,
-							NeurIPS 2022 ML Safety Workshop (<span style="color: #0066cc; font-weight: bold;">best paper award</span>).
+							NeurIPS 2022 ML Safety Workshop (best paper award).
 					</tr>
 					<tr data-tags='["aisec","trustml"]'><td>2022</td>
 						<td>G. Subramaniam, <b>S. Majumdar</b>. 
-						<a href="https://arxiv.org/abs/2211.13419" class="publication-link" target="_blank">
 							Network Security Modelling with Distributional Data</a>, CAMLIS 2022.
 					</tr>
 					<tr data-tags='["statml"]'><td>2022</td>
 							<td><b>S. Majumdar</b>, S. Chatterjee.
-							<a href="https://proceedings.mlr.press/v162/majumdar22a.html" class="publication-link" target="_blank">
 							Feature Selection using e-values</a>, ICML 2022.</td>
 						</tr>
 					  	<tr data-tags='["statml"]'><td>2022</td>
 							<td><b>S. Majumdar</b>, S. Chatterjee. 
-							<a href="https://arxiv.org/abs/1905.02700" class="publication-link" target="_blank">
 							On weighted multivariate sign functions</a>,
 							Journal of Multivariate Analysis 191, 105013.</td>
 						</tr>
@@ -228,7 +214,6 @@
                         </tr>
 						<tr data-tags='["statml"]'><td>2022</td>
 							<td><b>S. Majumdar</b>, G. Michailidis. 
-							<a href="https://jmlr.org/papers/v23/18-131.html" class="publication-link" target="_blank">
 							Joint Estimation and Inference for Data Integration Problems based on Multiple Multi-layered Gaussian Graphical Models</a>,
 							Journal of Machine Learning Research 23(1), 1-53.
 						</tr>
@@ -250,14 +235,12 @@
 						</tr> -->
                         <tr data-tags='["trustml"]'><td>2021</td>
                             <td>N. Derzsy*, <b>S. Majumdar</b>*, R. Malik*.
-							<a href="https://arxiv.org/abs/2105.06591" class="publication-link" target="_blank">
 							 An Interpretable Graph-based Mapping of Trustworthy Machine Learning Research</a>,
 							CompleNet 2021.
                             </td>
                         </tr>
 						<tr data-tags='["oth"]'><td>2021</td>
 							<td>C. Last, P. Pramanik, N. Saini, A.S. Majety, D.-H. Kim, M.-G. Herranz, <b>S. Majumdar</b>. 
-							<a href="https://arxiv.org/abs/2103.12505" class="publication-link" target="_blank">
 							Towards An Open Global Air Quality Monitoring Platform to Assess Children's Exposure to Air Pollutants in the Light of COVID-19 Lockdowns</a>,
 							CHI 2021 Late Breaking Work.
                             </td>
