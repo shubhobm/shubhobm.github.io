@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="A common theoretical framework connecting reliability ceilings, autoregressive drift, scaling laws, and catastrophic forgetting in language models."/>
+    <meta name="keywords" content="Subho Majumdar, language models, scaling laws, reliability, LLM"/>
+    <meta name="robots" content="index,follow"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Limits of LLMs | Subho Majumdar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+    <!-- Font Awesome for general icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheets/github-light.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/academic-enhancements.css">
+
+    <!-- MathJax for LaTeX rendering -->
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" id="MathJax-script" async></script>
+
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #b52e31; box-shadow:3px 3px 3px rgba(0, 0, 0, 0.1)">
+        <div class="container container-fluid" style="width:1200px">
+            <a class="navbar-brand" href="../index.html" style="text-decoration:none">Subho Majumdar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" style="text-decoration:none" href="../index.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" style="text-decoration:none" href="../publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" style="text-decoration:none" href="../professionalactivities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" style="text-decoration:none" href="../media.html">Media</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <style type="text/css">
+        body.blog-body {
+            background: linear-gradient(to right, #ffffff 80%, #f8f8f8);
+            font-family: "Inter", sans-serif;
+            color: #333333;
+        }
+        .blog-container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 40px 20px 60px;
+        }
+        .blog-title {
+            font-family: "Merriweather", serif;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #333333;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+        .blog-meta {
+            color: #777777;
+            font-size: 0.95rem;
+            margin-bottom: 32px;
+        }
+        .blog-article {
+            width: 100%;
+            max-width: 100%;
+            float: none;
+            display: block;
+        }
+        .blog-article p {
+            font-size: 1.05rem;
+            line-height: 1.75;
+            margin-bottom: 18px;
+            text-align: left;
+        }
+        .blog-article h2 {
+            font-family: "Merriweather", serif;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: #b52e31;
+            margin-top: 44px;
+            margin-bottom: 18px;
+            border-bottom: 2px solid #f0d3d3;
+            padding-bottom: 8px;
+        }
+        .blog-article a {
+            color: #b52e31;
+            text-decoration: underline;
+        }
+        .blog-article a:hover {
+            color: #8b1e21;
+        }
+        .blog-article strong {
+            color: #333333;
+        }
+        .blog-article mjx-container {
+            overflow-x: auto;
+            overflow-y: hidden;
+            max-width: 100%;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 24px;
+            font-size: 0.95rem;
+        }
+        .back-link i {
+            margin-right: 6px;
+        }
+        .blog-article hr.partial-rule {
+            border: none;
+            border-top: 2px solid #b52e31;
+            width: 80px;
+            max-width: 80px;
+            margin: 36px 0 24px;
+        }
+    </style>
+</head>
+<body class="blog-body">
+<div class="blog-container">
+    <a class="back-link" href="../index.html"><i class="fas fa-arrow-left"></i>Back to home</a>
+
+    <article class="blog-article">
+        <h1 class="blog-title">A theory for reliability and scaling in LLMs</h1>
+        <!-- <p class="blog-meta">Subho Majumdar</p> -->
+
+        <p>Why do LLMs improve at different rates across tasks? 
+            Why does retrieval help some failures while leaving others unresolved? 
+            What determines how errors accumulate during generation? 
+            And how are the benefits of scaling related to the capabilities lost during fine-tuning?</p>
+
+        <p>These questions are usually studied separately. Neural scaling laws describe learning curves. 
+            Exposure bias explains how generated prefixes depart from the training distribution. 
+            Retrieval supplies missing information. 
+            Catastrophic forgetting describes the loss of previously acquired capabilities during specialisation.
+            However, we still know very little about *why* these things happen. We have mostly taken for granted that
+            these phenomena are the way they are because... they just are.</p>
+
+        <p>In a latest manuscript <a href="https://arxiv.org/abs/2607.14112">Limits of Reliability and Scaling in Language Models</a>,
+            I propose a common theoretical framework connecting these phenomena. 
+            The framework starts from two properties of a task: how much information the input supplies about the output,
+            and how dependencies are distributed within the output. 
+            Applied to a mixture of training tasks, the same structure yields a conditional derivation of scaling exponents
+            and an account of catastrophic forgetting.</p>
+
+        <h2>Limits of reliability</h2>
+
+        <p>Let $X$ be the observable input and $Y$ the target output. The first primitive I introduce 
+            is the <strong>reliability ceiling</strong>:</p>
+
+        <p>$$R^\star:=\frac{I(X;Y)}{H(Y)} =1-\frac{H(Y\mid X)}{H(Y)}.$$</p>
+
+        <p>It measures the fraction of target uncertainty resolved by the input. 
+            For a model whose generated output $\widehat Y$ depends on the target only through $X$, 
+            the data processing inequality gives</p>
+
+        <p>$$I(\widehat Y;Y)\leq I(X;Y), \qquad \frac{I(\widehat Y;Y)}{H(Y)}\leq R^\star.$$</p>
+
+        <p>This is an architecture-independent information bound. 
+            More computation can improve how effectively a model uses the information available to it; 
+            it cannot recover information about a particular target that is absent from everything it observes. 
+            The statement assumes a fixed task distribution and the specified information-access structure.</p>
+
+        <p>This is a theoretical starting point for <strong>task-dependent performance ceilings</strong>. 
+            Tasks differ in how much their inputs determine acceptable outputs. 
+            A fully specified computational problem and an open-ended writing prompt leave different kinds of uncertainty unresolved. The ceiling is a normalised mutual-information quantity, however, and should not be read directly as an accuracy percentage.</p>
+
+        <p>The paper decomposes the unresolved fraction as</p>
+
+        <p>$$1-R^\star=\delta_r+\delta_u,$$</p>
+
+        <p>where $\delta_r$ is uncertainty attributable to missing but obtainable context, 
+            and $\delta_u$ represents residual subjective ambiguity. 
+            This produces three regimes: <em>fully verifiable</em> tasks with $\delta_r=\delta_u=0$; 
+            <em>ideally verifiable</em> tasks with $\delta_r>0$ and $\delta_u=0$,
+            and <em>subjectively uncertain</em> tasks with an enduring subjective gap, $\delta_u>0$.</p>
+
+        <p><strong>Context augmentation follows from the same primitive.</strong> If auxiliary context $\widetilde C$ becomes observable, the change in the ceiling is</p>
+
+        <p>$$\widetilde R^\star-R^\star =\frac{I(\widetilde C;Y\mid X)}{H(Y)}.$$</p>
+
+        <p>This supplies a common interpretation of retrieval augmentation, few-shot examples, and tool outputs: each can expose information relevant to the target that was unavailable in the original input. Under the paper's assumptions about resolvable context, the gain is bounded by $\delta_r$. The relevant quantity is the information added about the target conditional on the existing input, so context length alone does not determine the benefit. Nor does a higher ceiling guarantee that a particular model attains it.</p>
+
+        <p><strong>Benchmark instability is another consequence of unresolved target uncertainty.</strong> When an input admits multiple legitimate outputs, evaluation against a single sampled reference introduces variability even without any change in model quality. The paper formalises imperfect score repeatability under independent reference sampling and exact-match evaluation. This connects an evaluation phenomenon to the same conditional uncertainty that defines the ceiling. It motivates evaluating acceptable-output sets and reference sensitivity, particularly when comparing models on open-ended tasks.</p>
+
+        <h2>Limits of autoregressive generation</h2>
+
+        <p>An information ceiling does not explain how a model's output degrades as generation proceeds. Autoregressive generation adds a sequential mechanism:</p>
+
+        <p>$$Q_\theta(\widehat y\mid X) =\prod_{t=1}^{L}Q_\theta(\widehat y_t\mid\widehat y_{&lt;t},X).$$</p>
+
+        <p>Once a generated prefix deviates, subsequent predictions condition on that deviation. But sequence length alone does not determine its consequences. An error that affects a local constraint and an error that changes the interpretation of an entire argument can propagate very differently.</p>
+
+        <p>The paper first defines <strong>sequence fidelity</strong>,</p>
+
+        <p>$$F_\theta:=\Pr\!\left[d(\widehat Y,Y)\leq\eta\right],$$</p>
+
+        <p>where $d$ is a distance metric in text space and $\eta$ specifies an acceptance criterion. 
+            An impossibility result identifies conditions under which the information available
+            in the input is insufficient to make $F_\theta$ approach one, even after allowing multiple acceptable answers. 
+            Further bounds analyse the contribution of accumulated generation errors.</p>
+
+        <p>The next primitive, the <strong>dependency kernel</strong>, describes
+            the structure through which these errors can propagate:</p>
+
+        <p>$$K_Y(t,t'):=I\!\left(y_t;y_{t'}\mid y_{-\{t,t'\}},X\right).$$</p>
+
+        <p>An entry measures the conditional information shared by two output positions after accounting for the input and all other positions. A banded kernel concentrates dependencies locally; a dense kernel distributes them across the sequence. Structured outputs can contain strong local constraints alongside sparse long-range links, while global coherence can create dependencies spanning much of an output.</p>
+
+        <p>These structures yield different bounds on degradation with length. 
+            This offers a task-structural account of <strong>heterogeneous error propagation</strong>: 
+            models with similar initial fidelity can behave differently on long outputs
+            because their tasks transmit deviations differently.</p>
+
+        <p><strong>Verification fits into this account as an intervention on drift.</strong> A verifier that detects a deviation and restores a prefix to zero drift prevents that deviation from continuing to amplify later errors. The formal result assumes an oracle whose corrections never increase drift. Practical validators approximate this for the errors they can detect and repair.</p>
+
+        <p>This connects the effectiveness of verification to task structure. Syntax and type constraints may be checkable before generation finishes. Global coherence can depend on output that has not yet been produced. The framework therefore suggests studying verifiers jointly with the dependency structure of the task, rather than treating verification frequency as sufficient to characterise their benefit.</p>
+
+        <!-- <p>Context augmentation and verification enter the theory at different points: the former changes what the input reveals about the target; the latter controls the consequences of deviations during generation.</p> -->
+
+        <h2>Limits of scaling</h2>
+
+        <p>The same dependency structure also enters the account of training. For a task mixture $\mathcal T$, define the average kernel</p>
+
+        <p>$$\overline K:=\mathbb E_{\tau\sim\mathcal T}[K_Y^\tau].$$</p>
+
+        <p>Its eigenmodes describe shared dependency patterns. The paper assumes power-law decay both in the mixture spectrum and in the average prediction signal projected onto those modes:</p>
+
+        <p>$$\overline\sigma_k\asymp k^{-\nu_{\mathcal T}}, \qquad \mathbb E_\tau[(\overline f_k^\tau)^2]\asymp k^{-\overline\mu}.$$</p>
+
+        <p>With additional assumptions linking this spectrum to estimation error and specifying the capacity cost of representing modes, the framework yields</p>
+
+        <p>$$\mathcal L(N,D) =H(Y\mid X) +\max\!\left\{\frac{A}{N^\alpha},\frac{B}{D^\beta}\right\} +\text{lower-order terms},$$</p>
+
+        <p>where</p>
+
+        <p>$$\alpha=\frac{\overline\mu-1}{d(\nu_{\mathcal T}+1)}, \qquad \beta=\frac{\overline\mu-1}{\nu_{\mathcal T}}.$$</p>
+
+        <p>Here, $N$ is parameter count, $D$ is training tokens, and $d$ captures architectural overhead in the representational budget. The exponent $\nu_{\mathcal T}$ describes spectral decay; $\overline\mu$ describes concentration of prediction signal in leading modes.</p>
+
+        <p>The proposed connection to <strong>neural scaling laws</strong> has two parts. 
+            First, the exponents acquire a structural interpretation in terms of the training task mixture and representational cost.
+            Second, the maximum expresses a bottleneck: usable modes must be both representable 
+            by the model and learnable from the data. Increasing one resource far beyond the other 
+            leaves the leading limitation largely intact. Balanced scaling recovers Chinchilla-type power-law behaviour.</p>
+
+        <p>The irreducible term reconnects scaling to reliability. The exact cross-entropy decomposition is</p>
+
+        <p>$$\mathcal L =H(Y\mid X) +\mathbb E_X\!\left[D_{\mathrm{KL}}(P_{Y\mid X}\Vert Q_{\theta,Y\mid X})\right].$$</p>
+
+        <p>Learning improves the approximation to the conditional distribution. Informative context changes the conditional uncertainty itself. Thus, the framework places scaling and context augmentation within the same loss decomposition while identifying the different terms they affect.</p>
+
+        <!-- <p>These scaling claims depend on the spectral, estimation, and capacity assumptions. The paper does not establish that arbitrary transformer training obeys them. Testing those links is central to assessing the proposed explanation.</p> -->
+
+        <p><strong>Catastrophic forgetting follows from reallocation within this representational model.</strong> Fine-tuning shifts a fixed capacity budget toward modes useful for the target task. Modes supporting other tasks may be suppressed. Their exposure to this loss depends on the alignment of task kernels:</p>
+
+        <p>$$\rho(\tau,\tau^\star) :=\frac{\operatorname{tr}(K_Y^\tau K_Y^{\tau^\star})} {\lVert K_Y^\tau\rVert_F\,\lVert K_Y^{\tau^\star}\rVert_F}.$$</p>
+
+        <p>Under the paper's shared-basis approximation and capacity model, the forgetting bound contains a factor $\sqrt{1-\rho(\tau,\tau^\star)^2}$. Strong alignment tightens the bound; weak alignment permits a larger loss. This links specialisation and forgetting to the same finite representation of dependency modes used to derive capacity scaling.</p>
+
+        <p>The central proposal is that task-dependent ceilings, context benefits, reference-sensitive evaluation, error propagation, verification, scaling, and forgetting can be studied within one framework. Conditional uncertainty characterises the information limit. Dependency structure characterises propagation and, under additional assumptions, the cost of learning and representing the task mixture.</p>
+
+        <p>The next step is empirical: develop reliable estimators of these quantities, test whether they predict differences across tasks and training mixtures, and identify where the assumptions break. I would welcome feedback from researchers working on scaling, evaluation, long-form generation, and continual learning.</p>
+
+        <hr class="partial-rule">
+
+        <p>Full manuscript is available at: <a href="https://arxiv.org/abs/2607.14112v3" target="_blank">Limits of Reliability and Scaling in Language Models</a>.</p>
+    </article>
+</div>
+
+<div id="news" class="container container-fluid">
+    <p style="text-align:left">
+    © Subhabrata Majumdar 2026.
+    </p>
+</div>
+<br>
+</body>
+</html>
